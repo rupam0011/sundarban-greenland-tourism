@@ -1,0 +1,331 @@
+{
+  "companyInfo": {
+    "name": "Sundarban Greenland Tourism",
+    "tagline": "Discover the Mystique of the Mangroves",
+    "phone": "+91 98765 43210",
+    "whatsapp": "+919876543210",
+    "email": "info@sundarbanwildexplorers.com",
+    "address": "258, Fulbagan Road, Gr. Floor, Shop No-5, P.O.-Baghajatin, P.S.-Patuli, Kolkata 700086, West Bengal, India.",
+    "location": "India",
+    "socials": {
+      "facebook": "https://facebook.com/sundarbanwildexplorers",
+      "instagram": "https://instagram.com/sundarbanwildexplorers",
+      "youtube": "https://youtube.com/@sundarbanwildexplorers"
+    }
+  },
+  "packages": [
+    {
+      "id": "pkg-001",
+      "slug": "1-day-sundarban-trip",
+      "title": "Sundarban Day Explorer",
+      "duration": "1 Day",
+      "price": 1999,
+      "priceLabel": "₹1,999 / person",
+      "groupSize": "Min 10 persons",
+      "highlights": ["Boat Safari", "Bird Watching", "Sajnekhali Watchtower"],
+      "description": "A quick escape into the wild heart of the Sundarbans. Perfect for those short on time but big on adventure. Cruise through the labyrinthine creeks and spot exotic wildlife in a single action-packed day.",
+      "itinerary": [
+        { "time": "6:00 AM", "activity": "Pickup from Godkhali Jetty & welcome refreshments" },
+        { "time": "7:30 AM", "activity": "Boat safari through mangrove creeks towards Sajnekhali" },
+        { "time": "9:00 AM", "activity": "Visit Sajnekhali Watchtower & Mangrove Interpretation Centre" },
+        { "time": "11:00 AM", "activity": "Bird watching cruise – spot Kingfishers, White-bellied Sea Eagles" },
+        { "time": "1:00 PM", "activity": "Authentic Bengali lunch on the boat (Vetki fish, rice, dal)" },
+        { "time": "3:00 PM", "activity": "Visit local village & interact with honey collectors" },
+        { "time": "5:00 PM", "activity": "Return to Godkhali Jetty – departure" }
+      ],
+      "inclusions": ["Jungle entry permits", "Boat safari", "Lunch on boat", "Expert naturalist guide", "Life jackets & safety gear"],
+      "exclusions": ["Transportation to Godkhali", "Personal expenses", "Camera fees at watchtowers"],
+      "image": "/images/pkg-day-trip.png",
+      "featured": true
+    },
+    {
+      "id": "pkg-002",
+      "slug": "1-night-2-days-sundarban-package",
+      "title": "Mangrove Overnight Retreat",
+      "duration": "1 Night / 2 Days",
+      "price": 3999,
+      "priceLabel": "₹3,999 / person",
+      "groupSize": "Min 6 persons",
+      "highlights": ["Sudhanyakhali Watchtower", "Night Safari", "Cultural Program"],
+      "description": "Immerse yourself in the Sundarbans with an overnight stay at an eco-resort nestled among the mangroves. Experience the thrill of a night safari and wake up to the calls of the wild.",
+      "itinerary": [
+        { "time": "Day 1 - 7:00 AM", "activity": "Departure from Godkhali Jetty by motorized boat" },
+        { "time": "Day 1 - 10:00 AM", "activity": "Sajnekhali Watchtower visit & wildlife museum" },
+        { "time": "Day 1 - 1:00 PM", "activity": "Lunch at eco-resort – traditional Sundarban cuisine" },
+        { "time": "Day 1 - 3:00 PM", "activity": "Sudhanyakhali Watchtower – prime tiger spotting area" },
+        { "time": "Day 1 - 6:00 PM", "activity": "Evening folk dance & Bon Bibi cultural program" },
+        { "time": "Day 1 - 8:00 PM", "activity": "Dinner & night safari along the creek banks" },
+        { "time": "Day 2 - 6:00 AM", "activity": "Early morning bird watching cruise" },
+        { "time": "Day 2 - 9:00 AM", "activity": "Breakfast & visit to Dobanki canopy walk" },
+        { "time": "Day 2 - 12:00 PM", "activity": "Lunch and leisure at resort" },
+        { "time": "Day 2 - 2:00 PM", "activity": "Return journey to Godkhali Jetty" }
+      ],
+      "inclusions": ["Jungle permits", "AC/Non-AC resort stay", "All meals (2 Lunch, 1 Dinner, 1 Breakfast)", "Boat safari", "Cultural program", "Naturalist guide"],
+      "exclusions": ["Transportation to/from Godkhali", "Alcoholic beverages", "Personal expenses"],
+      "image": "/images/pkg-overnight.png",
+      "featured": true
+    },
+    {
+      "id": "pkg-003",
+      "slug": "2-nights-3-days-sundarban-package",
+      "title": "Royal Bengal Tiger Trail",
+      "duration": "2 Nights / 3 Days",
+      "price": 6499,
+      "priceLabel": "₹6,499 / person",
+      "groupSize": "Min 4 persons",
+      "highlights": ["Netidhopani Temple", "Dobanki Canopy Walk", "Tiger Territory"],
+      "description": "Our most popular package! Three days deep inside the Sundarban Tiger Reserve, visiting all major watchtowers and maximizing your chances of spotting the elusive Royal Bengal Tiger.",
+      "itinerary": [
+        { "time": "Day 1 - 8:00 AM", "activity": "Depart from Godkhali – welcome aboard the houseboat" },
+        { "time": "Day 1 - 11:00 AM", "activity": "Sajnekhali Watchtower & Crocodile enclosure" },
+        { "time": "Day 1 - 1:00 PM", "activity": "Lunch on houseboat – fresh river fish preparations" },
+        { "time": "Day 1 - 3:00 PM", "activity": "Sudhanyakhali Watchtower – tiger tracking with guide" },
+        { "time": "Day 1 - 7:00 PM", "activity": "Dinner & campfire storytelling at eco-lodge" },
+        { "time": "Day 2 - 5:30 AM", "activity": "Sunrise boat cruise – photography golden hour" },
+        { "time": "Day 2 - 9:00 AM", "activity": "Breakfast, then Dobanki Canopy Walk (500m treetop walkway)" },
+        { "time": "Day 2 - 12:00 PM", "activity": "Netidhopani ruins & 400-year-old Shiva temple" },
+        { "time": "Day 2 - 3:00 PM", "activity": "Deep creek safari – Spotted Deer, Wild Boar territory" },
+        { "time": "Day 2 - 6:00 PM", "activity": "Cultural evening – local folk music & dance" },
+        { "time": "Day 3 - 6:00 AM", "activity": "Final morning safari – last chance tiger spotting" },
+        { "time": "Day 3 - 10:00 AM", "activity": "Brunch & checkout from eco-lodge" },
+        { "time": "Day 3 - 12:00 PM", "activity": "Village walk – mud crab farming & honey collection" },
+        { "time": "Day 3 - 3:00 PM", "activity": "Arrive Godkhali Jetty – farewell" }
+      ],
+      "inclusions": ["All jungle permits & forest fees", "Houseboat + eco-lodge stay", "All meals (3 Lunch, 2 Dinner, 2 Breakfast)", "Multiple boat safaris", "Canopy walk tickets", "Expert wildlife guide", "Cultural programs"],
+      "exclusions": ["Travel to Godkhali", "Tips & gratuities", "Personal expenses", "Travel insurance"],
+      "image": "/images/pkg-tiger-trail.png",
+      "featured": true
+    },
+    {
+      "id": "pkg-004",
+      "slug": "hilsa-festival-special",
+      "title": "Hilsa Festival Special",
+      "duration": "2 Nights / 3 Days",
+      "price": 7999,
+      "priceLabel": "₹7,999 / person",
+      "groupSize": "Min 4 persons",
+      "highlights": ["Hilsa Tasting", "Cooking Demo", "Monsoon Safari"],
+      "description": "A seasonal monsoon special celebrating the king of fish – Hilsa! Combine wildlife safari with a gastronomic journey through the flavors of Bengal. Available July to October only.",
+      "itinerary": [
+        { "time": "Day 1 - 8:00 AM", "activity": "Departure from Godkhali with monsoon welcome kit" },
+        { "time": "Day 1 - 11:00 AM", "activity": "Monsoon creek safari – lush green mangroves at peak beauty" },
+        { "time": "Day 1 - 1:00 PM", "activity": "Grand Hilsa lunch – 5 preparations of fresh Hilsa" },
+        { "time": "Day 1 - 4:00 PM", "activity": "Hilsa fishing demonstration with local fishermen" },
+        { "time": "Day 1 - 7:00 PM", "activity": "Hilsa BBQ dinner & folk songs by the river" },
+        { "time": "Day 2 - 6:00 AM", "activity": "Morning bird watching – migratory species special" },
+        { "time": "Day 2 - 10:00 AM", "activity": "Hilsa cooking masterclass – learn 3 traditional recipes" },
+        { "time": "Day 2 - 1:00 PM", "activity": "Lunch & afternoon at leisure – spa/fishing" },
+        { "time": "Day 2 - 4:00 PM", "activity": "Sajnekhali & Sudhanyakhali watchtower visits" },
+        { "time": "Day 2 - 8:00 PM", "activity": "Farewell dinner – Sundarban feast with crab & prawn" },
+        { "time": "Day 3 - 7:00 AM", "activity": "Breakfast & local market visit for Hilsa souvenirs" },
+        { "time": "Day 3 - 11:00 AM", "activity": "Departure from Godkhali" }
+      ],
+      "inclusions": ["All jungle permits", "Premium resort stay", "All meals including Hilsa festival menu", "Cooking class", "Boat safaris", "Monsoon safety gear", "Expert guide"],
+      "exclusions": ["Travel to Godkhali", "Personal expenses", "Alcoholic beverages"],
+      "image": "/images/pkg-hilsa.png",
+      "featured": false
+    },
+    {
+      "id": "pkg-005",
+      "slug": "wildlife-photography-tour",
+      "title": "Wildlife Photography Expedition",
+      "duration": "3 Nights / 4 Days",
+      "price": 12999,
+      "priceLabel": "₹12,999 / person",
+      "groupSize": "Max 6 persons",
+      "highlights": ["Photography Hides", "Golden Hour Shoots", "Expert Photographer Guide"],
+      "description": "Designed for serious photographers and wildlife enthusiasts. Small groups, specialized photography boats with stabilized platforms, golden hour shoots, and expert wildlife photographer as your guide.",
+      "itinerary": [
+        { "time": "Day 1 - 6:00 AM", "activity": "Departure on specialized photography boat with stabilized tripod mounts" },
+        { "time": "Day 1 - 10:00 AM", "activity": "Sajnekhali – photography from dedicated wildlife hides" },
+        { "time": "Day 1 - 2:00 PM", "activity": "Lunch & post-processing workshop with guide" },
+        { "time": "Day 1 - 4:00 PM", "activity": "Golden hour shoot at Sudhanyakhali creek" },
+        { "time": "Day 2 - 5:00 AM", "activity": "Pre-dawn departure – sunrise at Dobanki" },
+        { "time": "Day 2 - 9:00 AM", "activity": "Canopy walk photography – aerial mangrove perspectives" },
+        { "time": "Day 2 - 2:00 PM", "activity": "Macro photography session – mangrove flora & insects" },
+        { "time": "Day 2 - 5:00 PM", "activity": "Sunset shoot – river dolphins & fishing boats" },
+        { "time": "Day 3 - 5:30 AM", "activity": "Tiger territory deep safari – Netidhopani area" },
+        { "time": "Day 3 - 11:00 AM", "activity": "Brunch & image review session" },
+        { "time": "Day 3 - 3:00 PM", "activity": "Kingfisher & raptor photography at dedicated spots" },
+        { "time": "Day 3 - 6:00 PM", "activity": "Night photography – starscapes over the delta" },
+        { "time": "Day 4 - 6:00 AM", "activity": "Final morning shoot – last chance at key species" },
+        { "time": "Day 4 - 10:00 AM", "activity": "Farewell brunch & digital portfolio sharing" },
+        { "time": "Day 4 - 1:00 PM", "activity": "Return to Godkhali" }
+      ],
+      "inclusions": ["All permits & fees", "Photography boat with stabilized platform", "Premium eco-lodge", "All meals", "Professional photographer guide", "Post-processing workshops", "Beanbag & hide access"],
+      "exclusions": ["Camera equipment", "Travel to Godkhali", "Personal expenses", "Travel insurance"],
+      "image": "/images/pkg-photography.png",
+      "featured": true
+    }
+  ],
+  "foods": [
+    {
+      "id": "food-001",
+      "name": "Sundarban Mud Crab",
+      "description": "Jumbo-sized mud crabs harvested from the mangrove estuaries, prepared in a rich, spicy mustard gravy – a Sundarban signature dish that is unforgettable.",
+      "image": "/images/food-crab.png"
+    },
+    {
+      "id": "food-002",
+      "name": "Vetki Fish Fry",
+      "description": "The prized Barramundi (Vetki) fish, lightly marinated with turmeric and chili, then pan-fried to golden perfection. A staple on every Sundarban boat trip.",
+      "image": "/images/food-vetki.png"
+    },
+    {
+      "id": "food-003",
+      "name": "Ilish (Hilsa) Bhapa",
+      "description": "The king of Bengali fish, steamed in banana leaves with mustard paste, coconut, and green chilies. Available seasonally during the monsoon months.",
+      "image": "/images/food-hilsa.png"
+    },
+    {
+      "id": "food-004",
+      "name": "Sundarban Mutton Curry",
+      "description": "Slow-cooked country mutton in a rich onion-tomato gravy with hand-ground spices, served with steaming rice – the ultimate comfort food after a day of safari.",
+      "image": "/images/food-mutton.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-001",
+      "name": "Anirban Chatterjee",
+      "location": "Kolkata",
+      "rating": 5,
+      "text": "An absolutely magical experience! The boat safari through the mangroves at sunrise was breathtaking. Our guide knew exactly where to spot the wildlife. We even saw fresh tiger pugmarks! The food on the boat was incredible – the Hilsa preparation was the best I've ever had.",
+      "avatar": "/images/avatar-1.jpg",
+      "tourPackage": "Royal Bengal Tiger Trail"
+    },
+    {
+      "id": "test-002",
+      "name": "Priya Sharma",
+      "location": "Delhi",
+      "rating": 5,
+      "text": "We chose the 2 Nights/3 Days package for our family vacation and it exceeded every expectation. The eco-resort was comfortable, the food was authentic Bengali, and the Dobanki canopy walk was the highlight for our kids. Truly a world-class experience!",
+      "avatar": "/images/avatar-2.jpg",
+      "tourPackage": "Royal Bengal Tiger Trail"
+    },
+    {
+      "id": "test-003",
+      "name": "Rajesh Kumar",
+      "location": "Mumbai",
+      "rating": 4,
+      "text": "The Wildlife Photography Tour was a dream come true. The specialized boat with stabilized platforms made a huge difference. I captured stunning shots of Kingfishers and White-bellied Sea Eagles. The night photography session under the stars was simply magical.",
+      "avatar": "/images/avatar-3.jpg",
+      "tourPackage": "Wildlife Photography Expedition"
+    },
+    {
+      "id": "test-004",
+      "name": "Sneha Banerjee",
+      "location": "Bangalore",
+      "rating": 5,
+      "text": "The Hilsa Festival Special was an unforgettable culinary journey! Learning to cook Hilsa three different ways with the local chef was the highlight. The monsoon safari showed us Sundarbans in its lushest, most beautiful avatar. Cannot recommend enough!",
+      "avatar": "/images/avatar-4.jpg",
+      "tourPackage": "Hilsa Festival Special"
+    },
+    {
+      "id": "test-005",
+      "name": "Amit Dasgupta",
+      "location": "Howrah",
+      "rating": 5,
+      "text": "Being a solo traveler, I was a bit nervous, but the team made me feel completely at home. The 1 Day Trip was perfectly organized – from the morning pickup to the evening drop. The Sajnekhali watchtower views were stunning. Great value for money!",
+      "avatar": "/images/avatar-5.jpg",
+      "tourPackage": "Sundarban Day Explorer"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dest-001",
+      "slug": "royal-bengal-tiger",
+      "title": "The Royal Bengal Tiger of Sundarbans",
+      "excerpt": "Home to over 100 Royal Bengal Tigers, the Sundarbans is one of the last strongholds of this magnificent predator.",
+      "content": "The Sundarbans is the only mangrove forest in the world where the Royal Bengal Tiger has adapted to a semi-aquatic lifestyle. These magnificent creatures swim between islands, hunt fish and crabs, and have developed unique behavioral patterns found nowhere else on Earth. The Sundarban Tiger Reserve, a UNESCO World Heritage Site, protects approximately 100+ tigers in its core area. Unlike their counterparts in mainland forests, Sundarban tigers are exceptional swimmers and have been known to cover distances of up to 8 kilometers across tidal waterways. The best chances of spotting a tiger are from the watchtowers at Sudhanyakhali, Sajnekhali, and Netidhopani, especially during the winter months of November to February when tigers come to the creek banks to bask in the sun.",
+      "image": "/images/gallery-1.png"
+    },
+    {
+      "id": "dest-002",
+      "slug": "mangrove-forests",
+      "title": "The Living Mangrove Forests",
+      "excerpt": "The world's largest mangrove ecosystem spanning 10,000 sq km across India and Bangladesh.",
+      "content": "The Sundarbans mangrove forest is one of the largest tidal halophytic mangrove forests in the world, spanning approximately 10,000 square kilometers across India and Bangladesh. Designated as a UNESCO World Heritage Site in 1987, this remarkable ecosystem is home to 64 plant species, including the iconic Sundari trees that give the forest its name. The mangroves serve as a critical buffer against cyclones and tsunamis, protecting millions of people living along the coast. The intricate root systems of the mangroves create a unique underwater habitat that supports an incredible diversity of marine life, including the endangered Ganges River Dolphin, Irrawaddy Dolphins, and various species of sharks and rays. Walking through the mangrove forests on elevated boardwalks like the Dobanki Canopy Walk offers visitors a unique perspective of this living, breathing ecosystem.",
+      "image": "/images/gallery-3.png"
+    },
+    {
+      "id": "dest-003",
+      "slug": "watchtowers-and-trails",
+      "title": "Watchtowers & Nature Trails",
+      "excerpt": "Explore the famous watchtowers of Sajnekhali, Sudhanyakhali, Dobanki, and Netidhopani.",
+      "content": "The Sundarban Tiger Reserve features several strategically located watchtowers that offer visitors the best vantage points for wildlife observation. Sajnekhali Watchtower, the most accessible, is often the first stop on any Sundarban tour. It houses a small museum, a crocodile breeding center, and offers panoramic views of the surrounding mangroves. Sudhanyakhali Watchtower is considered the prime tiger-spotting location, with a freshwater pond that attracts tigers, deer, and wild boar, especially during the dry season. The Dobanki Watchtower is unique for its 500-meter canopy walk – an elevated boardwalk through the treetops that provides an aerial view of the mangrove forest. Netidhopani features the ruins of a 400-year-old Shiva temple and is steeped in local legend about the forest goddess Bon Bibi. Each watchtower provides a different perspective of the Sundarbans ecosystem.",
+      "image": "/images/hero-1.png"
+    },
+    {
+      "id": "dest-004",
+      "slug": "birds-of-sundarbans",
+      "title": "Birds of the Sundarbans",
+      "excerpt": "A birdwatcher's paradise with over 260 species including Kingfishers, Sea Eagles, and rare migratory visitors.",
+      "content": "The Sundarbans is one of the premier birdwatching destinations in India, hosting over 260 species of birds across its diverse wetland habitats. The Sajnekhali Bird Sanctuary, nestled within the tiger reserve, is the crown jewel for ornithologists. Here, you can spot the magnificent White-bellied Sea Eagle soaring above the canopy, the brilliant Common Kingfisher diving for fish in the creeks, and large flocks of egrets and herons wading through the shallow mudflats. During the winter migration season (November to February), the Sundarbans welcomes thousands of migratory birds from Siberia, Central Asia, and Southeast Asia – including species like the Northern Pintail, Eurasian Wigeon, and the rare Spoon-billed Sandpiper. The Sundarbans is also home to several species of owls, woodpeckers, and the striking Black-capped Kingfisher. The early morning boat cruises through narrow creeks offer the best birdwatching opportunities, when the forest comes alive with the calls and songs of its feathered residents. Our expert naturalist guides carry spotting scopes and field guides to help you identify every species you encounter.",
+      "image": "/images/hero-4.png"
+    },
+    {
+      "id": "dest-005",
+      "slug": "river-life-and-communities",
+      "title": "River Life & Local Communities",
+      "excerpt": "Discover the resilient communities that call the Sundarban delta home – fishermen, honey collectors, and crab farmers.",
+      "content": "The Sundarbans is not just a wilderness – it is home to over 4.5 million people who have adapted to life in one of the most challenging environments on Earth. The local communities, known as Moulis (honey collectors), Jele (fishermen), and Bawaleys (wood cutters), have developed extraordinary survival skills honed over centuries. The honey collectors venture deep into tiger territory during the spring months to harvest wild honey from giant rock bee hives – a tradition celebrated in the legend of Bon Bibi, the forest goddess who is believed to protect them from tigers. Mud crab farming has emerged as a sustainable livelihood, with families nurturing crabs in small ponds carved into the riverbanks. The fishermen of the delta navigate the treacherous tidal channels in small wooden boats, casting nets for Hilsa, Vetki, and Prawns that form the backbone of Bengal's culinary tradition. Village visits during our tours offer an authentic glimpse into this remarkable way of life – you can watch traditional net-making, learn about sustainable fishing practices, and taste freshly prepared local cuisine. Our tourism model ensures that a significant portion of tour revenue goes directly to these communities, supporting schools, healthcare, and conservation efforts."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time to visit Sundarbans?",
+      "answer": "The best time to visit Sundarbans is from October to March (winter season). The weather is pleasant, wildlife is more active, and visibility is excellent. The monsoon season (July-September) is ideal for the Hilsa Festival but travel can be challenging due to heavy rains."
+    },
+    {
+      "question": "How do I reach the Sundarbans from Kolkata?",
+      "answer": "From Kolkata, drive to Godkhali Jetty (approximately 3-4 hours by road, ~100 km). From Godkhali, all our tours depart by motorized boat. We can arrange pickup from Kolkata at an additional cost."
+    },
+    {
+      "question": "Is it safe to visit the Sundarbans?",
+      "answer": "Absolutely! All our tours are conducted with expert naturalist guides, forest department permissions, and strict safety protocols. Life jackets are mandatory on all boat rides. Our guides are trained in wildlife safety and first aid."
+    },
+    {
+      "question": "Will I see a Royal Bengal Tiger?",
+      "answer": "Tiger sightings are never guaranteed as these are wild animals in their natural habitat. However, our experienced guides know the best spots and times for sightings. On 2-3 day packages, the chances improve significantly. Even without a direct sighting, you'll likely see pugmarks, scratch marks, and other signs of tiger activity."
+    },
+    {
+      "question": "What should I carry for a Sundarban trip?",
+      "answer": "Essential items include: comfortable cotton clothes, sunscreen, insect repellent, binoculars, camera with zoom lens, prescribed medications, a light jacket (for winter months), waterproof bags for electronics, and a valid photo ID. We provide life jackets, permits, and all meals."
+    },
+    {
+      "question": "Are the tours suitable for children and elderly?",
+      "answer": "Yes! Our boat safaris are comfortable and suitable for all ages. The eco-resorts have accessible facilities. However, we recommend the 1-Day or 1-Night packages for very young children or elderly travelers, as the longer trips can be physically demanding."
+    },
+    {
+      "question": "What is the cancellation policy?",
+      "answer": "Cancellations made 7+ days before departure receive a full refund (minus processing fees). Cancellations within 3-7 days receive a 50% refund. Cancellations within 72 hours are non-refundable. We recommend travel insurance for all bookings."
+    },
+    {
+      "question": "Do you provide vegetarian food?",
+      "answer": "Yes, we cater to all dietary requirements including vegetarian, vegan, and Jain food. Please inform us at the time of booking so we can make arrangements. Our chefs prepare fresh, hygienic meals using local ingredients."
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Safe & Secure Travel",
+      "description": "Licensed boats, trained guides, and strict safety protocols ensure your adventure is as safe as it is thrilling.",
+      "icon": "Shield"
+    },
+    {
+      "title": "Expert Naturalist Guides",
+      "description": "Our guides are locals with decades of experience, ensuring the best wildlife sightings and authentic stories.",
+      "icon": "Compass"
+    },
+    {
+      "title": "All Permits Included",
+      "description": "We handle all jungle permits, forest entry fees, and boat licenses – so you focus only on the experience.",
+      "icon": "FileCheck"
+    },
+    {
+      "title": "Eco-Friendly Tourism",
+      "description": "We are committed to sustainable tourism that protects the delicate mangrove ecosystem for future generations.",
+      "icon": "Leaf"
+    }
+  ]
+}
