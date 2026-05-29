@@ -1,9 +1,14 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import AboutSundarbanTour from "@/components/AboutSundarbanTour";
 import PackageCard from "@/components/PackageCard";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import FoodHighlightCard from "@/components/FoodHighlightCard";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import PickupDrop from "@/components/PickupDrop";
+import TourInsurance from "@/components/TourInsurance";
+import MangroveHoney from "@/components/MangroveHoney";
+import MiniGallery from "@/components/MiniGallery";
 import WildlifeDivider from "@/components/WildlifeDivider";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -16,10 +21,21 @@ export default function HomePage() {
     <>
       <Hero />
 
+      {/* About Sundarban Tour - Spot Images */}
+      <AboutSundarbanTour />
+
+      <WildlifeDivider variant="paws" className="bg-white py-4" />
+
       {/* Why Choose Us */}
       <WhyChooseUs />
 
-      <WildlifeDivider variant="paws" className="bg-mist py-4" />
+      {/* Pickup & Drop */}
+      <PickupDrop />
+
+      {/* Tour Insurance */}
+      <TourInsurance />
+
+      <WildlifeDivider variant="tiger-stripe" className="bg-mist py-4" />
 
       {/* Featured Packages */}
       <section className="py-20 bg-mist">
@@ -90,8 +106,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Pure Mangrove Honey */}
+      <MangroveHoney />
+
       {/* Testimonials */}
       <TestimonialSlider />
+
+      {/* Mini Gallery */}
+      <MiniGallery />
 
       {/* <WildlifeDivider variant="mangrove" className="bg-mist py-4" /> */}
 

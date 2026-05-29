@@ -150,12 +150,12 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
                   className="w-full py-3.5 bg-mangrove text-white rounded-xl font-semibold text-sm hover:bg-mangrove-dark transition-colors shadow-lg shadow-mangrove/20 mb-3">
                   Book Now
                 </button>
-                <a href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hi! I'm interested in ${pkg.title}`)}`}
+                <a href={`https://wa.me/916290886807?text=${encodeURIComponent(`Hi! I'm interested in ${pkg.title}`)}`}
                   target="_blank" rel="noopener noreferrer"
                   className="w-full py-3.5 bg-green-500 text-white rounded-xl font-semibold text-sm hover:bg-green-600 transition-colors flex items-center justify-center gap-2 mb-3">
                   <MessageCircle className="w-4 h-4" /> WhatsApp Us
                 </a>
-                <a href="tel:+919876543210"
+                <a href="tel:+916290886807"
                   className="w-full py-3.5 bg-white text-mangrove rounded-xl font-semibold text-sm border-2 border-mangrove/20 hover:border-mangrove/40 transition-colors flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Now
                 </a>

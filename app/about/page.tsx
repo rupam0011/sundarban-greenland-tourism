@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { TreePine, Heart, Globe, Users, Award, Leaf } from "lucide-react";
 import WildlifeDivider from "@/components/WildlifeDivider";
+import MissionVision from "@/components/MissionVision";
+import PickupDrop from "@/components/PickupDrop";
+import TestimonialSlider from "@/components/TestimonialSlider";
+import ISOCertified from "@/components/ISOCertified";
 
 export const metadata: Metadata = {
   title: "About Us – Our Story & Mission",
@@ -78,10 +82,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <WildlifeDivider variant="tiger-stripe" className="bg-white py-4" />
+      {/* Mission & Vision */}
+      <MissionVision />
+
+      <WildlifeDivider variant="tiger-stripe" className="bg-mist py-4" />
 
       {/* Stats */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-mist">
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
@@ -91,6 +98,9 @@ export default function AboutPage() {
           ))}
         </div>
       </section>
+
+      {/* Pickup & Drop */}
+      <PickupDrop />
 
       <WildlifeDivider variant="paws" className="bg-mist py-4" />
 
@@ -117,23 +127,85 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Eco Commitment with image */}
-      <section className="relative py-20 overflow-hidden">
-        <Image
-          src="/images/gallery-3.png"
-          alt="Sundarban mangrove conservation"
-          fill
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-mangrove-dark/85" />
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">
-          <Leaf className="w-12 h-12 text-gold mx-auto mb-6" />
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 font-[family-name:var(--font-display)]">
-            Our Eco Commitment
-          </h2>
-          <p className="text-white/70 text-lg leading-relaxed max-w-2xl mx-auto">
-            We plant 5 mangrove saplings for every tour booked. To date, we&apos;ve planted over 25,000 saplings, contributing to coastal protection and carbon sequestration. Our boats use low-emission engines, and all our lodges follow waste management guidelines set by the Sundarban Biosphere Reserve.
-          </p>
+      {/* ISO Certified */}
+      <ISOCertified />
+
+      {/* Testimonials */}
+      <TestimonialSlider />
+
+      {/* Eco Commitment Section - Light Design */}
+      <section className="py-20 bg-white relative overflow-hidden">
+        {/* Subtle decorative background elements */}
+        <div className="absolute top-1/2 left-0 w-72 h-72 bg-mangrove/5 rounded-full blur-3xl -translate-y-1/2" />
+        <div className="absolute bottom-10 right-10 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Text & Stats content */}
+            <div className="lg:col-span-7">
+              <div className="flex items-center gap-2 mb-4">
+                <Leaf className="w-5 h-5 text-mangrove animate-float" />
+                <span className="text-mangrove text-sm font-semibold uppercase tracking-wider">Our Eco Commitment</span>
+              </div>
+              
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 font-[family-name:var(--font-display)]">
+                Guarding the Wild, Supporting the Community
+              </h2>
+              
+              <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-8">
+                We plant 5 mangrove saplings for every tour booked. To date, we&apos;ve planted over 25,000 saplings, contributing to coastal protection and carbon sequestration. Our boats use low-emission engines, and all our lodges follow waste management guidelines set by the Sundarban Biosphere Reserve.
+              </p>
+
+              {/* Achievements row */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6 border-t border-gray-100">
+                <div className="flex gap-4 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-mangrove/10 flex items-center justify-center shrink-0">
+                    <span className="text-mangrove font-bold text-lg">🌱</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900">25,000+ Saplings</h4>
+                    <p className="text-xs text-gray-500 mt-1">Planted to combat coastal soil erosion and support local eco health.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+                    <span className="text-gold font-bold text-lg">🛥️</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900">Eco Boat Safaris</h4>
+                    <p className="text-xs text-gray-500 mt-1">Using low-emission, noise-insulated engines to protect sensitive river wildlife.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Visual Card component */}
+            <div className="lg:col-span-5 relative">
+              <div className="relative h-[350px] sm:h-[400px] rounded-3xl overflow-hidden shadow-xl border border-gray-100">
+                <Image
+                  src="/images/gallery-3.png"
+                  alt="Sundarban mangrove conservation"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-mangrove-dark/60 via-transparent to-transparent" />
+                
+                {/* Floating badge */}
+                <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-4 rounded-2xl flex items-center gap-3 shadow-lg">
+                  <div className="w-10 h-10 rounded-xl bg-mangrove flex items-center justify-center shrink-0 text-white font-bold text-lg">
+                    5
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-900 text-xs sm:text-sm">Saplings per booking</h5>
+                    <p className="text-[10px] sm:text-xs text-gray-500">Every journey helps restore the green canopy.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
     </article>

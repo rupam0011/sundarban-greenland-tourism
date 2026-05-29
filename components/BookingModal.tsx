@@ -101,8 +101,8 @@ export default function BookingModal({ packageTitle, price, isOpen, onClose }: B
                   </button>
 
                   <button onClick={() => { window.location.href = `tel:${companyInfo.phone}`; }}
-                    className="w-full flex items-center gap-4 p-4 rounded-xl border-2 border-blue-100 bg-blue-50 hover:border-blue-300 transition-all group">
-                    <div className="w-12 h-12 rounded-xl bg-river flex items-center justify-center shrink-0">
+                    className="w-full flex items-center gap-4 p-4 rounded-xl border-2 border-earth/10 bg-earth/5 hover:border-earth/30 transition-all group">
+                    <div className="w-12 h-12 rounded-xl bg-earth flex items-center justify-center shrink-0">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div className="text-left">
