@@ -57,6 +57,7 @@ export default function ContactPage() {
                   {[
                     { icon: MapPin, label: "Address", value: companyInfo.address },
                     { icon: Phone, label: "Phone", value: companyInfo.phone, href: `tel:${companyInfo.phone}` },
+                    { icon: Phone, label: "Query / WhatsApp", value: companyInfo.queryPhone, href: `tel:${companyInfo.queryPhone}` },
                     { icon: Mail, label: "Email", value: companyInfo.email, href: `mailto:${companyInfo.email}` },
                   ].map((item) => (
                     <div key={item.label} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-gray-50 shadow-sm">

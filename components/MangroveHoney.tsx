@@ -15,7 +15,7 @@ export default function MangroveHoney() {
     const message = encodeURIComponent(
       "Hi! I'd like to order Pure Mangrove Honey from Sundarbans. Please share the details and pricing."
     );
-    window.open(`https://wa.me/916290886807?text=${message}`, "_blank");
+    window.open(`https://wa.me/919330663490?text=${message}`, "_blank");
   };
 
   return (

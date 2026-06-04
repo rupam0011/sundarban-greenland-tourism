@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import PackageCard from "@/components/PackageCard";
 import WildlifeDivider from "@/components/WildlifeDivider";
+import EnquiryBar from "@/components/EnquiryBar";
 import content from "@/data/content.json";
 
 export const metadata: Metadata = {
   title: "Sundarban Tour Packages – Day Trips to Multi-Day Safaris",
-  description: "Explore our range of Sundarban tour packages. From 1-day boat safaris to 4-day wildlife photography expeditions. All-inclusive with jungle permits, meals, and expert guides.",
-  keywords: ["Sundarban tour packages", "Sundarban trip price", "Sundarban safari booking", "Sundarban 1 day trip", "Sundarban 2 night 3 days package"],
+  description: "Explore our range of Sundarban tour packages. From 1-day boat safaris to honeymoon specials. All-inclusive with jungle permits, meals, and expert guides.",
+  keywords: ["Sundarban tour packages", "Sundarban trip price", "Sundarban safari booking", "Sundarban 1 day trip", "Sundarban 2 night 3 days package", "Sundarban honeymoon package"],
 };
 
 export default function PackagesPage() {
@@ -33,6 +34,9 @@ export default function PackagesPage() {
         </div>
         <div className="absolute bottom-0 left-0 right-0 z-10 h-16 bg-gradient-to-t from-mist to-transparent" />
       </section>
+
+      {/* Enquiry Bar */}
+      <EnquiryBar />
 
       {/* Package Grid */}
       <section className="py-20 bg-mist">

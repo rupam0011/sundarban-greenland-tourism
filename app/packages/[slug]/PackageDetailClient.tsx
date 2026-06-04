@@ -4,9 +4,10 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Clock, Users, Check, X as XIcon, MapPin, ArrowLeft, Phone, MessageCircle } from "lucide-react";
+import { Clock, Users, Check, X as XIcon, MapPin, ArrowLeft, Phone, MessageCircle, Backpack, Baby, AlertTriangle } from "lucide-react";
 import BookingModal from "@/components/BookingModal";
 import WildlifeDivider from "@/components/WildlifeDivider";
+import content from "@/data/content.json";
 
 interface PackageData {
   id: string;
@@ -21,12 +22,16 @@ interface PackageData {
   itinerary: { time: string; activity: string }[];
   inclusions: string[];
   exclusions: string[];
+  thingsToCarry?: string[];
+  childPolicy?: { age: string; charge: string }[];
+  importantNotes?: string[];
   image: string;
   featured: boolean;
 }
 
 export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
   const [bookingOpen, setBookingOpen] = useState(false);
+  const { companyInfo } = content;
 
   return (
     <article>
@@ -137,6 +142,59 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
                   </ul>
                 </motion.div>
               </div>
+
+              {/* Things to Carry */}
+              {pkg.thingsToCarry && pkg.thingsToCarry.length > 0 && (
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+                  className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-50">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4 font-[family-name:var(--font-display)] flex items-center gap-2">
+                    <Backpack className="w-5 h-5 text-mangrove" /> Things to Carry
+                  </h3>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {pkg.thingsToCarry.map((item) => (
+                      <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
+                        <Check className="w-4 h-4 text-mangrove mt-0.5 shrink-0" />{item}
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              )}
+
+              {/* Child Policy */}
+              {pkg.childPolicy && pkg.childPolicy.length > 0 && (
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }}
+                  className="bg-white rounded-2xl p-6 shadow-sm border border-gray-50">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4 font-[family-name:var(--font-display)] flex items-center gap-2">
+                    <Baby className="w-5 h-5 text-mangrove" /> Child Policy
+                  </h3>
+                  <div className="space-y-2">
+                    {pkg.childPolicy.map((policy) => (
+                      <div key={policy.age} className="flex items-center justify-between p-3 rounded-xl bg-mangrove/5">
+                        <span className="text-sm text-gray-700 font-medium">{policy.age}</span>
+                        <span className="text-sm font-semibold text-mangrove">{policy.charge}</span>
+                      </div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Important Notes */}
+              {pkg.importantNotes && pkg.importantNotes.length > 0 && (
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
+                  className="bg-amber-50 rounded-2xl p-6 shadow-sm border border-amber-100">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4 font-[family-name:var(--font-display)] flex items-center gap-2">
+                    <AlertTriangle className="w-5 h-5 text-amber-600" /> Important Notes
+                  </h3>
+                  <ul className="space-y-2.5">
+                    {pkg.importantNotes.map((note, i) => (
+                      <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-2 shrink-0" />
+                        {note}
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              )}
             </div>
 
             {/* Sidebar */}
@@ -144,18 +202,23 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-50 sticky top-24">
                 <h3 className="text-lg font-bold text-gray-900 mb-4 font-[family-name:var(--font-display)]">Book This Tour</h3>
                 <div className="text-3xl font-bold text-mangrove mb-1 font-[family-name:var(--font-display)]">{pkg.priceLabel}</div>
-                <p className="text-gray-400 text-xs mb-6">Per person, all inclusive</p>
+                <p className="text-gray-400 text-xs mb-2">All inclusive • 50% advance</p>
+
+                <div className="bg-mangrove/5 rounded-xl p-3 mb-5 text-xs text-gray-500">
+                  <p className="font-medium text-gray-700 mb-1">Payment Policy:</p>
+                  <p>50% advance at booking. Remaining 50% payable before the trip.</p>
+                </div>
 
                 <button onClick={() => setBookingOpen(true)}
                   className="w-full py-3.5 bg-mangrove text-white rounded-xl font-semibold text-sm hover:bg-mangrove-dark transition-colors shadow-lg shadow-mangrove/20 mb-3">
                   Book Now
                 </button>
-                <a href={`https://wa.me/916290886807?text=${encodeURIComponent(`Hi! I'm interested in ${pkg.title}`)}`}
+                <a href={`https://wa.me/${companyInfo.whatsapp}?text=${encodeURIComponent(`Hi! I'm interested in ${pkg.title}`)}`}
                   target="_blank" rel="noopener noreferrer"
                   className="w-full py-3.5 bg-green-500 text-white rounded-xl font-semibold text-sm hover:bg-green-600 transition-colors flex items-center justify-center gap-2 mb-3">
                   <MessageCircle className="w-4 h-4" /> WhatsApp Us
                 </a>
-                <a href="tel:+916290886807"
+                <a href={`tel:${companyInfo.phone}`}
                   className="w-full py-3.5 bg-white text-mangrove rounded-xl font-semibold text-sm border-2 border-mangrove/20 hover:border-mangrove/40 transition-colors flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Now
                 </a>

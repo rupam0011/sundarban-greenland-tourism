@@ -59,7 +59,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 font-[family-name:var(--font-display)] mb-6">Our Journey</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Sundarban Greenland Tourism, under the proprietorship of Manika Mandal, was founded with a deep passion for the mangroves and a vision to bring responsible tourism to the Sundarbans. What started as small boat tours for birdwatchers has grown into one of the most trusted tour operators in the region.
+                Sundarban Greenland Tourism, under the proprietorship of Manika Mandal and organized by Biswajit Barik, was founded with a deep passion for the mangroves and a vision to bring responsible tourism to the Sundarbans. What started as small boat tours for birdwatchers has grown into one of the most trusted tour operators in the region.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Our team consists of experienced naturalist guides who were born and raised in the Sundarban delta. They know every creek, every watchtower, and every secret spot where wildlife gathers. This intimate knowledge, combined with a deep respect for the ecosystem, makes every tour with us a truly authentic experience.

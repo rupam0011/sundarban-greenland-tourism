@@ -12,11 +12,12 @@ const footerLinks = [
     { href: "/contact", label: "Contact" },
   ]},
   { heading: "Top Packages", links: [
-    { href: "/packages/1-day-sundarban-trip", label: "1 Day Trip" },
-    { href: "/packages/1-night-2-days-sundarban-package", label: "1 Night / 2 Days" },
-    { href: "/packages/2-nights-3-days-sundarban-package", label: "2 Nights / 3 Days" },
-    { href: "/packages/hilsa-festival-special", label: "Hilsa Festival" },
-    { href: "/packages/wildlife-photography-tour", label: "Photography Tour" },
+    { href: "/packages/1-day-sundarban-tour", label: "1 Day Tour" },
+    { href: "/packages/1-night-2-days-sundarban-tour", label: "1 Night / 2 Days" },
+    { href: "/packages/2-nights-3-days-standard-sundarban-tour", label: "2N/3D Standard" },
+    { href: "/packages/2-nights-3-days-deluxe-sundarban-tour", label: "2N/3D Deluxe" },
+    { href: "/packages/honeymoon-1-night-2-days", label: "Honeymoon 1N/2D" },
+    { href: "/packages/honeymoon-2-nights-3-days", label: "Honeymoon 2N/3D" },
   ]},
 ];
 
@@ -81,7 +82,10 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold shrink-0" />
-                <a href={`tel:${companyInfo.phone}`} className="text-white/60 text-sm hover:text-white transition-colors">{companyInfo.phone}</a>
+                <div>
+                  <a href={`tel:${companyInfo.phone}`} className="text-white/60 text-sm hover:text-white transition-colors block">{companyInfo.phone}</a>
+                  <a href={`tel:${companyInfo.queryPhone}`} className="text-white/60 text-sm hover:text-white transition-colors block">{companyInfo.queryPhone} <span className="text-[10px] text-gold/70">(Query)</span></a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-gold shrink-0" />
