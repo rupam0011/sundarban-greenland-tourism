@@ -98,6 +98,139 @@ export default function AboutSundarbanTour() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-24 max-w-5xl mx-auto"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            {/* Left Column */}
+            <div className="space-y-10">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 font-[family-name:var(--font-display)] mb-4">
+                  GREAT HOLIDAYS
+                </h3>
+                <p className="text-gray-600 leading-relaxed text-justify">
+                  We have started our journey since 2005 for providing a satisfactory Sundarban tour to the tourists of every corner in the world. The love we received from our customers motivated us to expand our tour and travels business, and makes it much more comfortable and happy experience for our customers in Sundarban. The Sundarban travel is a wonderful experience with our tour guide team.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 font-[family-name:var(--font-display)] mb-4 italic">
+                  How can I make a sundarban tour comfortable?
+                </h3>
+                <p className="text-gray-600 leading-relaxed mb-6 text-justify">
+                  There will be many ways to make a sundarban tour. First, you should be fixed a base point. I think KOLKATA is the right place to keep as a Basepoint for you if you belong to another city or state. You can reach at Kolkata by air, Train or Bus. You can choose our sundarban tour package for your hessle free Sundarban tour.
+                </p>
+
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Way-1:
+                    </h4>
+                    <p className="text-gray-600 pl-3 text-justify">
+                      You can reach DUM DUM airport by air. It&apos;s 168 km away from Sundarban. You can travel by bus or cab or if you will book your sundarban tour package then we can pick up you from the airport.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Way-2:
+                    </h4>
+                    <p className="text-gray-600 pl-3 text-justify">
+                      By train, you can reach sealdah or howrah. Then from these stations, you can travel by bus or cab or by our packages, etc. It&apos;s near about 180 km away from sundarban.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Way-3:
+                    </h4>
+                    <p className="text-gray-600 pl-3 text-justify">
+                      From Kolkata you can travel by local train to Canning then you can hire a private cab or auto to Gosaba. Canning is nearly 46 km away from Kolkata.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 uppercase font-[family-name:var(--font-display)] mb-4">
+                SUNDARBAN TOUR GUIDE
+              </h3>
+              <h4 className="text-xl font-semibold text-mangrove font-[family-name:var(--font-display)] italic mb-8">
+                Things you have to know before making a sundarban trip.
+              </h4>
+              
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Enjoy natural beauty:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    I think Sundarban is made by direct blessing of GOD. It&apos;s natural beauty is highly charming which can change your mind to free.
+                  </p>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> How to make a plan for Sundarban tour?:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    You can book a Sundarban tour by choose a sundarban tour package or you can send us a request to make a customized Sundarban tour package.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Watch Tower:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    There will be three watch towers i.e Sajnekhali, Sudhanyakhali, Dobani. From these towers, you can watch birds of around 200 species such as hiron, Kingfisher, quill, eagle, Caspian tern, etc.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Enjoy of Local Tour:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    You can feel like never before by touching the morning wind to your body. You will feel like listening to a song from nature surrounding you. The beginning of the day will make your day so sweat.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Riding of Boat:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    If you will not ride a boat during your trip, it&apos;s sure the trip will not be completed. During the houseboat riding period, you can feel the song of the river. If you will lucky then you can see Royal Bengal Tiger.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Jungle Trip:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    By GOD&apos;s grace jungle is full of ornaments like deer, tigers, snakes, wolves, many types of birds along with BONO DEVI. You will never forget to visit the jungle during your tour.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-lg text-mangrove font-[family-name:var(--font-display)] flex items-center gap-2 mb-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold"></span> Availability of ATM:
+                  </h4>
+                  <p className="text-gray-600 pl-3 text-justify">
+                    ATMs are not available in the sundarban area. Therefore you will take sufficient money as per your need from GOSOBA or your nearest availability area.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

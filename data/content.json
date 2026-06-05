@@ -23,27 +23,92 @@
       "price": 1999,
       "priceLabel": "₹1,999 / person",
       "groupSize": "Min 10 persons",
-      "highlights": ["Sajnekhali Watchtower", "Sudhanyakhali Watchtower", "Dobanki Canopy Walk", "Boat Safari", "Bird Watching"],
+      "highlights": [
+        "Sajnekhali Watchtower",
+        "Sudhanyakhali Watchtower",
+        "Dobanki Canopy Walk",
+        "Boat Safari",
+        "Bird Watching"
+      ],
       "description": "A power-packed single-day expedition into the wild Sundarbans. Start from Kolkata early morning, cruise through the world's largest mangrove delta, visit 3 iconic watchtowers, and return by evening – all with breakfast and lunch served fresh on the boat.",
       "itinerary": [
-        { "time": "5:00 AM", "activity": "Departure from Kolkata. Three-hour scenic drive to Sundarban Godkhali with a tea break on the way." },
-        { "time": "8:30 – 9:00 AM", "activity": "Board the boat at Godkhali. Sundarban adventure begins! Head toward the mangrove creeks and delta region." },
-        { "time": "9:30 AM", "activity": "Sajnekhali Tiger Reserve – visit the watchtower, wildlife museum & crocodile enclosure." },
-        { "time": "11:00 AM", "activity": "Sudhanyakhali Watchtower – prime area for spotting deer, crocodiles, wild boar, monitor lizards, exotic birds & the Royal Bengal Tiger." },
-        { "time": "12:30 PM", "activity": "Dobanki Tiger Reserve – walk the famous 896-meter canopy walk through the treetops." },
-        { "time": "1:30 PM", "activity": "Breakfast & lunch served fresh on the boat – authentic Bengali cuisine." },
-        { "time": "4:00 – 5:00 PM", "activity": "Sundarban jungle trip concludes. Head back to Kolkata by AC vehicle." },
-        { "time": "8:00 – 9:00 PM", "activity": "Arrive back in Kolkata." }
+        {
+          "time": "5:00 AM",
+          "activity": "Departure from Kolkata. Three-hour scenic drive to Sundarban Godkhali with a tea break on the way."
+        },
+        {
+          "time": "8:30 – 9:00 AM",
+          "activity": "Board the boat at Godkhali. Sundarban adventure begins! Head toward the mangrove creeks and delta region."
+        },
+        {
+          "time": "9:30 AM",
+          "activity": "Sajnekhali Tiger Reserve – visit the watchtower, wildlife museum & crocodile enclosure."
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Sudhanyakhali Watchtower – prime area for spotting deer, crocodiles, wild boar, monitor lizards, exotic birds & the Royal Bengal Tiger."
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Dobanki Tiger Reserve – walk the famous 896-meter canopy walk through the treetops."
+        },
+        {
+          "time": "1:30 PM",
+          "activity": "Breakfast & lunch served fresh on the boat – authentic Bengali cuisine."
+        },
+        {
+          "time": "4:00 – 5:00 PM",
+          "activity": "Sundarban jungle trip concludes. Head back to Kolkata by AC vehicle."
+        },
+        {
+          "time": "8:00 – 9:00 PM",
+          "activity": "Arrive back in Kolkata."
+        }
       ],
-      "inclusions": ["Transportation from Kolkata by AC vehicle", "Mechanised boat with beds & European toilet", "Breakfast & lunch on the boat", "Evening tea & biscuits", "Jungle entry fees & guide charges", "Boat permits & still camera permissions"],
-      "exclusions": ["Hard or aerated drinks", "Video camera charges", "Personal & miscellaneous expenses", "Coolie charges", "Non-Indian guests pay separate Tiger Reserve permit fees"],
-      "thingsToCarry": ["Specific medicines for cough, cold, stomach upset etc.", "Valid photo ID proof (mandatory)", "Passport (original) for foreign nationals", "Camera / binoculars for wildlife viewing", "Light baggage that is easy to carry", "Comfortable footwear", "Sunglasses, hat/cap & sunscreen lotion", "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"],
+      "inclusions": [
+        "Transportation from Kolkata by AC vehicle",
+        "Mechanised boat with beds & European toilet",
+        "Breakfast & lunch on the boat",
+        "Evening tea & biscuits",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Video camera charges",
+        "Personal & miscellaneous expenses",
+        "Coolie charges",
+        "Non-Indian guests pay separate Tiger Reserve permit fees"
+      ],
+      "thingsToCarry": [
+        "Specific medicines for cough, cold, stomach upset etc.",
+        "Valid photo ID proof (mandatory)",
+        "Passport (original) for foreign nationals",
+        "Camera / binoculars for wildlife viewing",
+        "Light baggage that is easy to carry",
+        "Comfortable footwear",
+        "Sunglasses, hat/cap & sunscreen lotion",
+        "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"
+      ],
       "childPolicy": [
-        { "age": "1 to 4 years", "charge": "Free" },
-        { "age": "4 to 8 years", "charge": "50% of package price" },
-        { "age": "Above 8 years", "charge": "Full charge" }
+        {
+          "age": "1 to 4 years",
+          "charge": "Free"
+        },
+        {
+          "age": "4 to 8 years",
+          "charge": "50% of package price"
+        },
+        {
+          "age": "Above 8 years",
+          "charge": "Full charge"
+        }
       ],
-      "importantNotes": ["Itinerary may change based on weather & tide conditions. All destinations will be covered.", "Food menu may change based on availability.", "Vehicle or boat may be changed for safety reasons without prior notice."],
+      "importantNotes": [
+        "Itinerary may change based on weather & tide conditions. All destinations will be covered.",
+        "Food menu may change based on availability.",
+        "Vehicle or boat may be changed for safety reasons without prior notice."
+      ],
       "image": "/images/pkg-day-trip.png",
       "featured": true
     },
@@ -55,34 +120,123 @@
       "price": 3999,
       "priceLabel": "₹3,999 / person",
       "groupSize": "Min 6 persons",
-      "highlights": ["Kolkata Pickup & Drop", "Sajnekhali Tiger Reserve", "Sudhanyakhali Watchtower", "Dobanki Canopy Walk", "Panchamukhni Junction", "Folk Dance & Campfire"],
+      "highlights": [
+        "Kolkata Pickup & Drop",
+        "Sajnekhali Tiger Reserve",
+        "Sudhanyakhali Watchtower",
+        "Dobanki Canopy Walk",
+        "Panchamukhni Junction",
+        "Folk Dance & Campfire"
+      ],
       "description": "Our most popular short getaway! Depart from Kolkata by AC vehicle, spend a night at an eco-resort nestled beside the Sundarban Tiger Reserve, and enjoy a full-day thrilling boat safari through the mangrove creeks with folk dance, campfire, and authentic Bengali cuisine.",
       "itinerary": [
-        { "time": "Day 1 – 8:00 AM", "activity": "Pick up from Indian Museum (Park Street Metro) at 8:00 AM. Second pickup from P.C. Chandra Garden, Science City at 8:30 AM. Depart by AC vehicle." },
-        { "time": "Day 1 – 9:00 AM", "activity": "Three-and-a-half hour scenic drive to Godkhali with breakfast & tea break on the way." },
-        { "time": "Day 1 – 1:30 PM", "activity": "Arrive at the hotel, located opposite the Sundarban Tiger Reserve – surrounded by village, forests & river breeze." },
-        { "time": "Day 1 – 2:00 PM", "activity": "Lunch – authentic Sundarban cuisine at the hotel." },
-        { "time": "Day 1 – 4:00 PM", "activity": "Short boat ride to the Sundarban Bird Jungle with a mesmerizing sunset view. Return to hotel by 6 PM." },
-        { "time": "Day 1 – 7:00 PM", "activity": "Local folk dance performance with complimentary snacks, tea & coffee." },
-        { "time": "Day 1 – 8:00 PM", "activity": "Campfire & music (winter season only)." },
-        { "time": "Day 1 – 10:00 PM", "activity": "Dinner & overnight stay at hotel." },
-        { "time": "Day 2 – 8:00 AM", "activity": "Depart for Sundarban delta safari by boat." },
-        { "time": "Day 2 – 8:30 AM", "activity": "Begin jungle safari at Sajnekhali Tiger Reserve with government-certified tourist guide." },
-        { "time": "Day 2 – 9:30 AM", "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Sarakkhali, Gazikhali, Deul Varani, Banbibi Varani. Visit Sudhanyakhali Watchtower – spot deer, crocodiles, wild boar, snakes, monitor lizards, birds & the Royal Bengal Tiger." },
-        { "time": "Day 2 – 12:30 PM", "activity": "Dobanki Tiger Reserve – the famous 896-meter canopy walk through a netted treetop enclosure." },
-        { "time": "Day 2 – 1:30 PM", "activity": "Visit Panchamukhni – the stunning 5-river junction." },
-        { "time": "Day 2 – 4:00 – 5:00 PM", "activity": "Safari concludes. Head back to Kolkata by AC vehicle." },
-        { "time": "Day 2 – 8:00 – 9:00 PM", "activity": "Arrive back in Kolkata." }
+        {
+          "time": "Day 1 – 8:00 AM",
+          "activity": "Pick up from Indian Museum (Park Street Metro) at 8:00 AM. Second pickup from P.C. Chandra Garden, Science City at 8:30 AM. Depart by AC vehicle."
+        },
+        {
+          "time": "Day 1 – 9:00 AM",
+          "activity": "Three-and-a-half hour scenic drive to Godkhali with breakfast & tea break on the way."
+        },
+        {
+          "time": "Day 1 – 1:30 PM",
+          "activity": "Arrive at the hotel, located opposite the Sundarban Tiger Reserve – surrounded by village, forests & river breeze."
+        },
+        {
+          "time": "Day 1 – 2:00 PM",
+          "activity": "Lunch – authentic Sundarban cuisine at the hotel."
+        },
+        {
+          "time": "Day 1 – 4:00 PM",
+          "activity": "Short boat ride to the Sundarban Bird Jungle with a mesmerizing sunset view. Return to hotel by 6 PM."
+        },
+        {
+          "time": "Day 1 – 7:00 PM",
+          "activity": "Local folk dance performance with complimentary snacks, tea & coffee."
+        },
+        {
+          "time": "Day 1 – 8:00 PM",
+          "activity": "Campfire & music (winter season only)."
+        },
+        {
+          "time": "Day 1 – 10:00 PM",
+          "activity": "Dinner & overnight stay at hotel."
+        },
+        {
+          "time": "Day 2 – 8:00 AM",
+          "activity": "Depart for Sundarban delta safari by boat."
+        },
+        {
+          "time": "Day 2 – 8:30 AM",
+          "activity": "Begin jungle safari at Sajnekhali Tiger Reserve with government-certified tourist guide."
+        },
+        {
+          "time": "Day 2 – 9:30 AM",
+          "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Sarakkhali, Gazikhali, Deul Varani, Banbibi Varani. Visit Sudhanyakhali Watchtower – spot deer, crocodiles, wild boar, snakes, monitor lizards, birds & the Royal Bengal Tiger."
+        },
+        {
+          "time": "Day 2 – 12:30 PM",
+          "activity": "Dobanki Tiger Reserve – the famous 896-meter canopy walk through a netted treetop enclosure."
+        },
+        {
+          "time": "Day 2 – 1:30 PM",
+          "activity": "Visit Panchamukhni – the stunning 5-river junction."
+        },
+        {
+          "time": "Day 2 – 4:00 – 5:00 PM",
+          "activity": "Safari concludes. Head back to Kolkata by AC vehicle."
+        },
+        {
+          "time": "Day 2 – 8:00 – 9:00 PM",
+          "activity": "Arrive back in Kolkata."
+        }
       ],
-      "inclusions": ["Transportation from Kolkata by AC vehicle (sharing basis)", "Deluxe room accommodation (AC / Non-AC)", "Mechanised boat with beds & European toilet", "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea", "Evening cultural folk dance programme", "Jungle entry fees & guide charges", "Boat permits & still camera permissions", "Campfire (winter season only)"],
-      "exclusions": ["Hard or aerated drinks", "Video camera charges", "Personal & miscellaneous expenses", "Coolie charges", "Non-Indian guests pay separate Tiger Reserve permit fees"],
-      "thingsToCarry": ["Specific medicines for cough, cold, stomach upset etc.", "Valid photo ID proof (mandatory)", "Passport (original) for foreign nationals", "Camera / binoculars for wildlife viewing", "Light baggage that is easy to carry", "Comfortable footwear", "Sunglasses, hat/cap & sunscreen lotion", "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"],
+      "inclusions": [
+        "Transportation from Kolkata by AC vehicle (sharing basis)",
+        "Deluxe room accommodation (AC / Non-AC)",
+        "Mechanised boat with beds & European toilet",
+        "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea",
+        "Evening cultural folk dance programme",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions",
+        "Campfire (winter season only)"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Video camera charges",
+        "Personal & miscellaneous expenses",
+        "Coolie charges",
+        "Non-Indian guests pay separate Tiger Reserve permit fees"
+      ],
+      "thingsToCarry": [
+        "Specific medicines for cough, cold, stomach upset etc.",
+        "Valid photo ID proof (mandatory)",
+        "Passport (original) for foreign nationals",
+        "Camera / binoculars for wildlife viewing",
+        "Light baggage that is easy to carry",
+        "Comfortable footwear",
+        "Sunglasses, hat/cap & sunscreen lotion",
+        "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"
+      ],
       "childPolicy": [
-        { "age": "1 to 4 years", "charge": "Free" },
-        { "age": "4 to 8 years", "charge": "50% of package price" },
-        { "age": "Above 8 years", "charge": "Full charge" }
+        {
+          "age": "1 to 4 years",
+          "charge": "Free"
+        },
+        {
+          "age": "4 to 8 years",
+          "charge": "50% of package price"
+        },
+        {
+          "age": "Above 8 years",
+          "charge": "Full charge"
+        }
       ],
-      "importantNotes": ["Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.", "Food menu may change based on availability.", "Vehicle or boat may be changed for safety of guests."],
+      "importantNotes": [
+        "Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.",
+        "Food menu may change based on availability.",
+        "Vehicle or boat may be changed for safety of guests."
+      ],
       "image": "/images/pkg-overnight.png",
       "featured": true
     },
@@ -94,35 +248,128 @@
       "price": 4999,
       "priceLabel": "₹4,999 / person",
       "groupSize": "Min 4 persons",
-      "highlights": ["Budget Friendly", "Sajnekhali & Sudhanyakhali", "Dobanki Canopy Walk", "Jharkhali Tiger Reserve", "Panchamukhni Junction", "Hamilton & Tagore Bungalow", "Village Walk"],
+      "highlights": [
+        "Budget Friendly",
+        "Sajnekhali & Sudhanyakhali",
+        "Dobanki Canopy Walk",
+        "Jharkhali Tiger Reserve",
+        "Panchamukhni Junction",
+        "Hamilton & Tagore Bungalow",
+        "Village Walk"
+      ],
       "description": "An ideal budget-friendly Sundarban tour covering all the major attractions over 3 days. Pick up from Canning Railway Station, enjoy wildlife safaris through multiple tiger reserve areas, visit historic bungalows, and experience authentic village life – all at a pocket-friendly price.",
       "itinerary": [
-        { "time": "Day 1 – 10:00 AM", "activity": "Pick up from Canning Railway Station by auto/Tata Magic. Head to Godkhali Launch Ghat to board the boat." },
-        { "time": "Day 1 – 1:30 PM", "activity": "Lunch at the resort." },
-        { "time": "Day 1 – 2:00 PM", "activity": "Arrive at Pakhirala – located opposite the Sundarban Tiger Reserve, surrounded by village, forests & river breeze." },
-        { "time": "Day 1 – 4:00 PM", "activity": "Short boat ride into the Sundarban Bird Jungle with stunning sunset views. Return by 6 PM." },
-        { "time": "Day 1 – 7:00 PM", "activity": "Local folk dance with complimentary snacks, tea & coffee." },
-        { "time": "Day 1 – 10:00 PM", "activity": "Dinner & overnight stay at hotel." },
-        { "time": "Day 2 – 8:00 AM", "activity": "Morning departure for Sundarban delta safari by boat." },
-        { "time": "Day 2 – 8:30 AM", "activity": "Jungle safari at Sajnekhali Tiger Reserve with government tourist guide." },
-        { "time": "Day 2 – 9:30 AM", "activity": "Boat safari through rivers, islands & creeks – Pirkhali, Banbibi Varani, Sundarkhali, Khonakhali, Choragaji, Deualvarani, Sarakkhali, Gazikhali, Nobanki. Visit Sudhanyakhali Watchtower for tiger territory wildlife viewing." },
-        { "time": "Day 2 – 12:30 PM", "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetop enclosure." },
-        { "time": "Day 2 – 1:30 PM", "activity": "Visit Panchamukhni 5-river junction & Jharkhali Tiger Reserve watchtower by boat." },
-        { "time": "Day 2 – 5:00 PM", "activity": "Return to Pakhirala after the thrilling safari." },
-        { "time": "Day 2 – 10:00 PM", "activity": "Dinner at hotel." },
-        { "time": "Day 3 – 9:00 AM", "activity": "Breakfast, then local village walk – a truly fantastic experience. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow." },
-        { "time": "Day 3 – 12:00 PM", "activity": "Transfer by boat to reach the car. Lunch provided on the way." },
-        { "time": "Day 3 – 4:00 – 5:00 PM", "activity": "Arrive at Canning / Kolkata." }
+        {
+          "time": "Day 1 – 10:00 AM",
+          "activity": "Pick up from Canning Railway Station by auto/Tata Magic. Head to Godkhali Launch Ghat to board the boat."
+        },
+        {
+          "time": "Day 1 – 1:30 PM",
+          "activity": "Lunch at the resort."
+        },
+        {
+          "time": "Day 1 – 2:00 PM",
+          "activity": "Arrive at Pakhirala – located opposite the Sundarban Tiger Reserve, surrounded by village, forests & river breeze."
+        },
+        {
+          "time": "Day 1 – 4:00 PM",
+          "activity": "Short boat ride into the Sundarban Bird Jungle with stunning sunset views. Return by 6 PM."
+        },
+        {
+          "time": "Day 1 – 7:00 PM",
+          "activity": "Local folk dance with complimentary snacks, tea & coffee."
+        },
+        {
+          "time": "Day 1 – 10:00 PM",
+          "activity": "Dinner & overnight stay at hotel."
+        },
+        {
+          "time": "Day 2 – 8:00 AM",
+          "activity": "Morning departure for Sundarban delta safari by boat."
+        },
+        {
+          "time": "Day 2 – 8:30 AM",
+          "activity": "Jungle safari at Sajnekhali Tiger Reserve with government tourist guide."
+        },
+        {
+          "time": "Day 2 – 9:30 AM",
+          "activity": "Boat safari through rivers, islands & creeks – Pirkhali, Banbibi Varani, Sundarkhali, Khonakhali, Choragaji, Deualvarani, Sarakkhali, Gazikhali, Nobanki. Visit Sudhanyakhali Watchtower for tiger territory wildlife viewing."
+        },
+        {
+          "time": "Day 2 – 12:30 PM",
+          "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetop enclosure."
+        },
+        {
+          "time": "Day 2 – 1:30 PM",
+          "activity": "Visit Panchamukhni 5-river junction & Jharkhali Tiger Reserve watchtower by boat."
+        },
+        {
+          "time": "Day 2 – 5:00 PM",
+          "activity": "Return to Pakhirala after the thrilling safari."
+        },
+        {
+          "time": "Day 2 – 10:00 PM",
+          "activity": "Dinner at hotel."
+        },
+        {
+          "time": "Day 3 – 9:00 AM",
+          "activity": "Breakfast, then local village walk – a truly fantastic experience. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow."
+        },
+        {
+          "time": "Day 3 – 12:00 PM",
+          "activity": "Transfer by boat to reach the car. Lunch provided on the way."
+        },
+        {
+          "time": "Day 3 – 4:00 – 5:00 PM",
+          "activity": "Arrive at Canning / Kolkata."
+        }
       ],
-      "inclusions": ["Pick up & drop from Canning to Godkhali by auto/Tata Magic", "Standard room accommodation (AC / Non-AC)", "Mechanised boat with beds & European toilet", "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea", "Evening cultural folk dance programme", "Jungle entry fees & guide charges", "Boat permits & still camera permissions"],
-      "exclusions": ["Hard or aerated drinks", "Video camera charges", "Personal & miscellaneous expenses", "Coolie charges", "Non-Indian guests pay separate Tiger Reserve permit fees"],
-      "thingsToCarry": ["Specific medicines for cough, cold, stomach upset etc.", "Valid photo ID proof (mandatory)", "Passport (original) for foreign nationals", "Camera / binoculars for wildlife viewing", "Light baggage that is easy to carry", "Comfortable footwear", "Sunglasses, hat/cap & sunscreen lotion", "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"],
+      "inclusions": [
+        "Pick up & drop from Canning to Godkhali by auto/Tata Magic",
+        "Standard room accommodation (AC / Non-AC)",
+        "Mechanised boat with beds & European toilet",
+        "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea",
+        "Evening cultural folk dance programme",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Video camera charges",
+        "Personal & miscellaneous expenses",
+        "Coolie charges",
+        "Non-Indian guests pay separate Tiger Reserve permit fees"
+      ],
+      "thingsToCarry": [
+        "Specific medicines for cough, cold, stomach upset etc.",
+        "Valid photo ID proof (mandatory)",
+        "Passport (original) for foreign nationals",
+        "Camera / binoculars for wildlife viewing",
+        "Light baggage that is easy to carry",
+        "Comfortable footwear",
+        "Sunglasses, hat/cap & sunscreen lotion",
+        "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"
+      ],
       "childPolicy": [
-        { "age": "1 to 4 years", "charge": "Free" },
-        { "age": "4 to 8 years", "charge": "50% of package price" },
-        { "age": "Above 8 years", "charge": "Full charge" }
+        {
+          "age": "1 to 4 years",
+          "charge": "Free"
+        },
+        {
+          "age": "4 to 8 years",
+          "charge": "50% of package price"
+        },
+        {
+          "age": "Above 8 years",
+          "charge": "Full charge"
+        }
       ],
-      "importantNotes": ["Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.", "Food menu may change based on availability.", "Vehicle or boat may be changed for safety of guests.", "No luxurious facilities available on boat or hotel – this is a budget-friendly package."],
+      "importantNotes": [
+        "Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.",
+        "Food menu may change based on availability.",
+        "Vehicle or boat may be changed for safety of guests.",
+        "No luxurious facilities available on boat or hotel – this is a budget-friendly package."
+      ],
       "image": "/images/pkg-tiger-trail.png",
       "featured": true
     },
@@ -134,36 +381,131 @@
       "price": 6999,
       "priceLabel": "₹6,999 / person",
       "groupSize": "Min 4 persons",
-      "highlights": ["Kolkata Pickup & Drop", "Deluxe AC Room", "Sajnekhali & Sudhanyakhali", "Dobanki Canopy Walk", "Panchamukhni Junction", "Hamilton & Tagore Bungalow", "Folk Dance & Campfire"],
+      "highlights": [
+        "Kolkata Pickup & Drop",
+        "Deluxe AC Room",
+        "Sajnekhali & Sudhanyakhali",
+        "Dobanki Canopy Walk",
+        "Panchamukhni Junction",
+        "Hamilton & Tagore Bungalow",
+        "Folk Dance & Campfire"
+      ],
       "description": "Our signature deluxe Sundarban experience! Depart from Kolkata Indian Museum or Science City by AC vehicle, stay at a premium resort for 2 nights, and explore every major attraction across 3 action-packed days — complete with campfire, folk dance, and sumptuous Bengali meals.",
       "itinerary": [
-        { "time": "Day 1 – 8:00 AM", "activity": "Pick up from Indian Museum (Park Street Metro) at 8:00 AM. Second pickup from P.C. Chandra Garden, Science City at 8:30 AM. Depart by AC vehicle." },
-        { "time": "Day 1 – 9:00 AM", "activity": "Three-and-a-half hour scenic drive to Godkhali with breakfast & tea break en route." },
-        { "time": "Day 1 – 2:30 PM", "activity": "Arrive at the hotel – located opposite the Sundarban Tiger Reserve, surrounded by forests, village life & river breeze." },
-        { "time": "Day 1 – 4:00 PM", "activity": "Introductory boat ride to the Sundarban Bird Jungle with a mesmerizing sunset view. Return to hotel by 6 PM." },
-        { "time": "Day 1 – 7:00 PM", "activity": "Local folk dance performance with complimentary snacks, tea & coffee." },
-        { "time": "Day 1 – 8:00 PM", "activity": "Campfire & music (winter season only)." },
-        { "time": "Day 1 – 10:00 PM", "activity": "Dinner & overnight stay at deluxe hotel." },
-        { "time": "Day 2 – 8:00 AM", "activity": "Morning departure for full-day Sundarban delta safari by boat." },
-        { "time": "Day 2 – 8:30 AM", "activity": "Jungle safari begins at Sajnekhali Tiger Reserve with certified government tourist guide." },
-        { "time": "Day 2 – 9:30 AM", "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Banbibi Varani, Sundarkhali, Khonakhali, Choragaji, Deualvarani, Sarakkhali, Gazikhali, Nobanki. Visit Sudhanyakhali Watchtower – prime tiger territory for spotting deer, crocodiles, wild boar, snakes, monitor lizards, exotic birds & the Royal Bengal Tiger." },
-        { "time": "Day 2 – 12:30 PM", "activity": "Dobanki Tiger Reserve – walk the famous 896-meter canopy walk through a netted treetop enclosure." },
-        { "time": "Day 2 – 1:30 PM", "activity": "Visit Panchamukhni – the spectacular 5-river junction." },
-        { "time": "Day 2 – 5:00 PM", "activity": "Return to Pakhirala after the exhilarating safari." },
-        { "time": "Day 2 – 10:00 PM", "activity": "Dinner at hotel." },
-        { "time": "Day 3 – 9:30 AM", "activity": "Breakfast, then local village walk – experience authentic Sundarban village life. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow." },
-        { "time": "Day 3 – 12:00 PM", "activity": "Transfer by boat to reach the vehicle. Lunch provided on the way back." },
-        { "time": "Day 3 – 4:00 – 5:00 PM", "activity": "Arrive back in Kolkata." }
+        {
+          "time": "Day 1 – 8:00 AM",
+          "activity": "Pick up from Indian Museum (Park Street Metro) at 8:00 AM. Second pickup from P.C. Chandra Garden, Science City at 8:30 AM. Depart by AC vehicle."
+        },
+        {
+          "time": "Day 1 – 9:00 AM",
+          "activity": "Three-and-a-half hour scenic drive to Godkhali with breakfast & tea break en route."
+        },
+        {
+          "time": "Day 1 – 2:30 PM",
+          "activity": "Arrive at the hotel – located opposite the Sundarban Tiger Reserve, surrounded by forests, village life & river breeze."
+        },
+        {
+          "time": "Day 1 – 4:00 PM",
+          "activity": "Introductory boat ride to the Sundarban Bird Jungle with a mesmerizing sunset view. Return to hotel by 6 PM."
+        },
+        {
+          "time": "Day 1 – 7:00 PM",
+          "activity": "Local folk dance performance with complimentary snacks, tea & coffee."
+        },
+        {
+          "time": "Day 1 – 8:00 PM",
+          "activity": "Campfire & music (winter season only)."
+        },
+        {
+          "time": "Day 1 – 10:00 PM",
+          "activity": "Dinner & overnight stay at deluxe hotel."
+        },
+        {
+          "time": "Day 2 – 8:00 AM",
+          "activity": "Morning departure for full-day Sundarban delta safari by boat."
+        },
+        {
+          "time": "Day 2 – 8:30 AM",
+          "activity": "Jungle safari begins at Sajnekhali Tiger Reserve with certified government tourist guide."
+        },
+        {
+          "time": "Day 2 – 9:30 AM",
+          "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Banbibi Varani, Sundarkhali, Khonakhali, Choragaji, Deualvarani, Sarakkhali, Gazikhali, Nobanki. Visit Sudhanyakhali Watchtower – prime tiger territory for spotting deer, crocodiles, wild boar, snakes, monitor lizards, exotic birds & the Royal Bengal Tiger."
+        },
+        {
+          "time": "Day 2 – 12:30 PM",
+          "activity": "Dobanki Tiger Reserve – walk the famous 896-meter canopy walk through a netted treetop enclosure."
+        },
+        {
+          "time": "Day 2 – 1:30 PM",
+          "activity": "Visit Panchamukhni – the spectacular 5-river junction."
+        },
+        {
+          "time": "Day 2 – 5:00 PM",
+          "activity": "Return to Pakhirala after the exhilarating safari."
+        },
+        {
+          "time": "Day 2 – 10:00 PM",
+          "activity": "Dinner at hotel."
+        },
+        {
+          "time": "Day 3 – 9:30 AM",
+          "activity": "Breakfast, then local village walk – experience authentic Sundarban village life. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow."
+        },
+        {
+          "time": "Day 3 – 12:00 PM",
+          "activity": "Transfer by boat to reach the vehicle. Lunch provided on the way back."
+        },
+        {
+          "time": "Day 3 – 4:00 – 5:00 PM",
+          "activity": "Arrive back in Kolkata."
+        }
       ],
-      "inclusions": ["Transportation from Kolkata by AC vehicle (sharing basis)", "Deluxe room accommodation (AC / Non-AC)", "Mechanised boat with beds & European toilet", "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea", "Evening cultural folk dance programme", "Jungle entry fees & guide charges", "Boat permits & still camera permissions", "Campfire (winter season only)"],
-      "exclusions": ["Hard or aerated drinks", "Personal & miscellaneous expenses", "Coolie charges", "Non-Indian guests pay separate Tiger Reserve permit fees"],
-      "thingsToCarry": ["Specific medicines for cough, cold, stomach upset etc.", "Valid photo ID proof (mandatory)", "Passport (original) for foreign nationals", "Camera / binoculars for wildlife viewing", "Light baggage that is easy to carry", "Comfortable footwear", "Sunglasses, hat/cap & sunscreen lotion", "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"],
+      "inclusions": [
+        "Transportation from Kolkata by AC vehicle (sharing basis)",
+        "Deluxe room accommodation (AC / Non-AC)",
+        "Mechanised boat with beds & European toilet",
+        "All meals – Breakfast, Lunch, Evening Tea & Snacks, Dinner, Bed Tea",
+        "Evening cultural folk dance programme",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions",
+        "Campfire (winter season only)"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Personal & miscellaneous expenses",
+        "Coolie charges",
+        "Non-Indian guests pay separate Tiger Reserve permit fees"
+      ],
+      "thingsToCarry": [
+        "Specific medicines for cough, cold, stomach upset etc.",
+        "Valid photo ID proof (mandatory)",
+        "Passport (original) for foreign nationals",
+        "Camera / binoculars for wildlife viewing",
+        "Light baggage that is easy to carry",
+        "Comfortable footwear",
+        "Sunglasses, hat/cap & sunscreen lotion",
+        "Carry cash – ATM access is limited (only SBI ATM at Gosaba)"
+      ],
       "childPolicy": [
-        { "age": "1 to 4 years", "charge": "Free" },
-        { "age": "4 to 8 years", "charge": "50% of package price" },
-        { "age": "Above 8 years", "charge": "Full charge" }
+        {
+          "age": "1 to 4 years",
+          "charge": "Free"
+        },
+        {
+          "age": "4 to 8 years",
+          "charge": "50% of package price"
+        },
+        {
+          "age": "Above 8 years",
+          "charge": "Full charge"
+        }
       ],
-      "importantNotes": ["Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.", "Food menu may change based on availability.", "Vehicle or boat may be changed for safety of guests."],
+      "importantNotes": [
+        "Itinerary may change based on weather & tide conditions. All watchtowers & destinations will be covered.",
+        "Food menu may change based on availability.",
+        "Vehicle or boat may be changed for safety of guests."
+      ],
       "image": "/images/pkg-overnight.png",
       "featured": true
     },
@@ -175,28 +517,100 @@
       "price": 14000,
       "priceLabel": "₹14,000 / couple",
       "groupSize": "Couple (2 persons)",
-      "highlights": ["Premium Hotel – Larica Inn / Sonar Bangla", "Private Boat Safari", "Candlelight Dinner", "Sajnekhali & Sudhanyakhali", "Dobanki Canopy Walk", "Sunset Cruise"],
+      "highlights": [
+        "Premium Hotel – Larica Inn / Sonar Bangla",
+        "Private Boat Safari",
+        "Candlelight Dinner",
+        "Sajnekhali & Sudhanyakhali",
+        "Dobanki Canopy Walk",
+        "Sunset Cruise"
+      ],
       "description": "Celebrate your love amidst the mystic mangroves! Our exclusive honeymoon package features a stay at premium properties like Larica Inn Sundarban or Hotel Sonar Bangla Sundarban, private boat safari, romantic candlelight dinner, and a mesmerizing sunset cruise through the creeks.",
       "itinerary": [
-        { "time": "Day 1 – 8:00 AM", "activity": "Pick up from Indian Museum (Park Street Metro) or Science City. Depart by private AC vehicle." },
-        { "time": "Day 1 – 12:30 PM", "activity": "Arrive at premium hotel – Larica Inn Sundarban or Hotel Sonar Bangla Sundarban. Welcome drink & check-in." },
-        { "time": "Day 1 – 1:30 PM", "activity": "Special couple's lunch – fresh Bengali cuisine at the hotel restaurant." },
-        { "time": "Day 1 – 4:00 PM", "activity": "Romantic sunset cruise through the Sundarban Bird Jungle. Enjoy the magical golden hour over the river." },
-        { "time": "Day 1 – 7:00 PM", "activity": "Folk dance cultural programme with complimentary snacks & beverages." },
-        { "time": "Day 1 – 9:00 PM", "activity": "Romantic candlelight dinner & overnight stay at premium hotel." },
-        { "time": "Day 2 – 8:00 AM", "activity": "Breakfast at hotel. Depart for Sundarban boat safari." },
-        { "time": "Day 2 – 9:00 AM", "activity": "Sajnekhali Tiger Reserve visit with government tourist guide." },
-        { "time": "Day 2 – 10:30 AM", "activity": "Sudhanyakhali Watchtower – explore tiger territory & spot wildlife." },
-        { "time": "Day 2 – 12:30 PM", "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetops." },
-        { "time": "Day 2 – 1:30 PM", "activity": "Panchamukhni 5-river junction. Lunch on the boat." },
-        { "time": "Day 2 – 4:00 PM", "activity": "Safari concludes. Return journey to Kolkata by AC vehicle." },
-        { "time": "Day 2 – 8:00 – 9:00 PM", "activity": "Arrive back in Kolkata." }
+        {
+          "time": "Day 1 – 8:00 AM",
+          "activity": "Pick up from Indian Museum (Park Street Metro) or Science City. Depart by private AC vehicle."
+        },
+        {
+          "time": "Day 1 – 12:30 PM",
+          "activity": "Arrive at premium hotel – Larica Inn Sundarban or Hotel Sonar Bangla Sundarban. Welcome drink & check-in."
+        },
+        {
+          "time": "Day 1 – 1:30 PM",
+          "activity": "Special couple's lunch – fresh Bengali cuisine at the hotel restaurant."
+        },
+        {
+          "time": "Day 1 – 4:00 PM",
+          "activity": "Romantic sunset cruise through the Sundarban Bird Jungle. Enjoy the magical golden hour over the river."
+        },
+        {
+          "time": "Day 1 – 7:00 PM",
+          "activity": "Folk dance cultural programme with complimentary snacks & beverages."
+        },
+        {
+          "time": "Day 1 – 9:00 PM",
+          "activity": "Romantic candlelight dinner & overnight stay at premium hotel."
+        },
+        {
+          "time": "Day 2 – 8:00 AM",
+          "activity": "Breakfast at hotel. Depart for Sundarban boat safari."
+        },
+        {
+          "time": "Day 2 – 9:00 AM",
+          "activity": "Sajnekhali Tiger Reserve visit with government tourist guide."
+        },
+        {
+          "time": "Day 2 – 10:30 AM",
+          "activity": "Sudhanyakhali Watchtower – explore tiger territory & spot wildlife."
+        },
+        {
+          "time": "Day 2 – 12:30 PM",
+          "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetops."
+        },
+        {
+          "time": "Day 2 – 1:30 PM",
+          "activity": "Panchamukhni 5-river junction. Lunch on the boat."
+        },
+        {
+          "time": "Day 2 – 4:00 PM",
+          "activity": "Safari concludes. Return journey to Kolkata by AC vehicle."
+        },
+        {
+          "time": "Day 2 – 8:00 – 9:00 PM",
+          "activity": "Arrive back in Kolkata."
+        }
       ],
-      "inclusions": ["Private AC vehicle – Kolkata pickup & drop", "Premium hotel stay – Larica Inn / Sonar Bangla (AC room)", "Private mechanised boat with beds & European toilet", "All meals – Breakfast, Lunch, Dinner, Snacks & Beverages", "Romantic candlelight dinner", "Folk dance cultural programme", "Jungle entry fees & guide charges", "Boat permits & still camera permissions", "Welcome drink & special couple amenities"],
-      "exclusions": ["Hard or aerated drinks", "Personal & miscellaneous expenses", "Video camera charges", "Any additional room service orders"],
-      "thingsToCarry": ["Valid photo ID proof for both guests", "Comfortable clothing & footwear", "Camera / binoculars", "Sunscreen & sunglasses", "Personal medicines if any", "Carry cash – limited ATM access in Sundarbans"],
+      "inclusions": [
+        "Private AC vehicle – Kolkata pickup & drop",
+        "Premium hotel stay – Larica Inn / Sonar Bangla (AC room)",
+        "Private mechanised boat with beds & European toilet",
+        "All meals – Breakfast, Lunch, Dinner, Snacks & Beverages",
+        "Romantic candlelight dinner",
+        "Folk dance cultural programme",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions",
+        "Welcome drink & special couple amenities"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Personal & miscellaneous expenses",
+        "Video camera charges",
+        "Any additional room service orders"
+      ],
+      "thingsToCarry": [
+        "Valid photo ID proof for both guests",
+        "Comfortable clothing & footwear",
+        "Camera / binoculars",
+        "Sunscreen & sunglasses",
+        "Personal medicines if any",
+        "Carry cash – limited ATM access in Sundarbans"
+      ],
       "childPolicy": [],
-      "importantNotes": ["Hotel allocation (Larica Inn or Sonar Bangla) is subject to availability.", "Itinerary may change based on weather & tide conditions.", "This is an exclusive couple's package – pricing is per couple, not per person."],
+      "importantNotes": [
+        "Hotel allocation (Larica Inn or Sonar Bangla) is subject to availability.",
+        "Itinerary may change based on weather & tide conditions.",
+        "This is an exclusive couple's package – pricing is per couple, not per person."
+      ],
       "image": "/images/pkg-photography.png",
       "featured": true
     },
@@ -208,33 +622,198 @@
       "price": 17000,
       "priceLabel": "₹17,000 / couple",
       "groupSize": "Couple (2 persons)",
-      "highlights": ["Premium Hotel – Larica Inn / Sonar Bangla", "Private Boat Safari", "Candlelight Dinners", "Full Sundarban Exploration", "Hamilton & Tagore Bungalow", "Sunset Cruise", "Village Walk"],
+      "highlights": [
+        "Premium Hotel – Larica Inn / Sonar Bangla",
+        "Private Boat Safari",
+        "Candlelight Dinners",
+        "Full Sundarban Exploration",
+        "Hamilton & Tagore Bungalow",
+        "Sunset Cruise",
+        "Village Walk"
+      ],
       "description": "The ultimate romantic Sundarban getaway! Three days and two nights at a premium property – Larica Inn or Hotel Sonar Bangla – with private boat safaris, candlelight dinners, a village walk, historic bungalow visits, and complete Sundarban exploration in privacy and comfort.",
       "itinerary": [
-        { "time": "Day 1 – 8:00 AM", "activity": "Pick up from Indian Museum (Park Street Metro) or Science City. Depart by private AC vehicle." },
-        { "time": "Day 1 – 12:30 PM", "activity": "Arrive at premium hotel – Larica Inn Sundarban or Hotel Sonar Bangla. Welcome drink & check-in." },
-        { "time": "Day 1 – 1:30 PM", "activity": "Special couple's lunch – multi-course Bengali feast." },
-        { "time": "Day 1 – 4:00 PM", "activity": "Romantic sunset cruise through the Sundarban Bird Jungle. Golden hour photography over the river." },
-        { "time": "Day 1 – 7:00 PM", "activity": "Folk dance cultural programme with complimentary snacks & beverages." },
-        { "time": "Day 1 – 9:00 PM", "activity": "Romantic candlelight dinner & overnight stay." },
-        { "time": "Day 2 – 8:00 AM", "activity": "Breakfast. Depart for full-day Sundarban delta safari by private boat." },
-        { "time": "Day 2 – 8:30 AM", "activity": "Sajnekhali Tiger Reserve – watchtower, wildlife museum & crocodile enclosure." },
-        { "time": "Day 2 – 9:30 AM", "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Banbibi Varani, Sundarkhali, Sarakkhali, Gazikhali. Visit Sudhanyakhali Watchtower – spot deer, crocodiles, wild boar & the Royal Bengal Tiger." },
-        { "time": "Day 2 – 12:30 PM", "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetops." },
-        { "time": "Day 2 – 1:30 PM", "activity": "Panchamukhni 5-river junction. Lunch served on the boat." },
-        { "time": "Day 2 – 5:00 PM", "activity": "Return to hotel after the safari." },
-        { "time": "Day 2 – 9:00 PM", "activity": "Candlelight dinner & overnight stay." },
-        { "time": "Day 3 – 9:00 AM", "activity": "Breakfast. Local village walk – experience authentic Sundarban life. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow." },
-        { "time": "Day 3 – 12:00 PM", "activity": "Check out. Transfer by boat to the vehicle. Lunch provided on the way." },
-        { "time": "Day 3 – 4:00 – 5:00 PM", "activity": "Arrive back in Kolkata." }
+        {
+          "time": "Day 1 – 8:00 AM",
+          "activity": "Pick up from Indian Museum (Park Street Metro) or Science City. Depart by private AC vehicle."
+        },
+        {
+          "time": "Day 1 – 12:30 PM",
+          "activity": "Arrive at premium hotel – Larica Inn Sundarban or Hotel Sonar Bangla. Welcome drink & check-in."
+        },
+        {
+          "time": "Day 1 – 1:30 PM",
+          "activity": "Special couple's lunch – multi-course Bengali feast."
+        },
+        {
+          "time": "Day 1 – 4:00 PM",
+          "activity": "Romantic sunset cruise through the Sundarban Bird Jungle. Golden hour photography over the river."
+        },
+        {
+          "time": "Day 1 – 7:00 PM",
+          "activity": "Folk dance cultural programme with complimentary snacks & beverages."
+        },
+        {
+          "time": "Day 1 – 9:00 PM",
+          "activity": "Romantic candlelight dinner & overnight stay."
+        },
+        {
+          "time": "Day 2 – 8:00 AM",
+          "activity": "Breakfast. Depart for full-day Sundarban delta safari by private boat."
+        },
+        {
+          "time": "Day 2 – 8:30 AM",
+          "activity": "Sajnekhali Tiger Reserve – watchtower, wildlife museum & crocodile enclosure."
+        },
+        {
+          "time": "Day 2 – 9:30 AM",
+          "activity": "Thrilling boat safari through rivers, islands & narrow creeks – Pirkhali, Banbibi Varani, Sundarkhali, Sarakkhali, Gazikhali. Visit Sudhanyakhali Watchtower – spot deer, crocodiles, wild boar & the Royal Bengal Tiger."
+        },
+        {
+          "time": "Day 2 – 12:30 PM",
+          "activity": "Dobanki Tiger Reserve – 896-meter canopy walk through the treetops."
+        },
+        {
+          "time": "Day 2 – 1:30 PM",
+          "activity": "Panchamukhni 5-river junction. Lunch served on the boat."
+        },
+        {
+          "time": "Day 2 – 5:00 PM",
+          "activity": "Return to hotel after the safari."
+        },
+        {
+          "time": "Day 2 – 9:00 PM",
+          "activity": "Candlelight dinner & overnight stay."
+        },
+        {
+          "time": "Day 3 – 9:00 AM",
+          "activity": "Breakfast. Local village walk – experience authentic Sundarban life. Visit Hamilton Bungalow & Rabindranath Tagore Bungalow."
+        },
+        {
+          "time": "Day 3 – 12:00 PM",
+          "activity": "Check out. Transfer by boat to the vehicle. Lunch provided on the way."
+        },
+        {
+          "time": "Day 3 – 4:00 – 5:00 PM",
+          "activity": "Arrive back in Kolkata."
+        }
       ],
-      "inclusions": ["Private AC vehicle – Kolkata pickup & drop", "2 nights premium hotel – Larica Inn / Sonar Bangla (AC room)", "Private mechanised boat with beds & European toilet", "All meals – Breakfast, Lunch, Dinner, Snacks & Beverages", "2 romantic candlelight dinners", "Folk dance cultural programme", "Jungle entry fees & guide charges", "Boat permits & still camera permissions", "Welcome drink & special couple amenities"],
-      "exclusions": ["Hard or aerated drinks", "Personal & miscellaneous expenses", "Video camera charges", "Any additional room service orders"],
-      "thingsToCarry": ["Valid photo ID proof for both guests", "Comfortable clothing & footwear", "Camera / binoculars", "Sunscreen & sunglasses", "Personal medicines if any", "Carry cash – limited ATM access in Sundarbans"],
+      "inclusions": [
+        "Private AC vehicle – Kolkata pickup & drop",
+        "2 nights premium hotel – Larica Inn / Sonar Bangla (AC room)",
+        "Private mechanised boat with beds & European toilet",
+        "All meals – Breakfast, Lunch, Dinner, Snacks & Beverages",
+        "2 romantic candlelight dinners",
+        "Folk dance cultural programme",
+        "Jungle entry fees & guide charges",
+        "Boat permits & still camera permissions",
+        "Welcome drink & special couple amenities"
+      ],
+      "exclusions": [
+        "Hard or aerated drinks",
+        "Personal & miscellaneous expenses",
+        "Video camera charges",
+        "Any additional room service orders"
+      ],
+      "thingsToCarry": [
+        "Valid photo ID proof for both guests",
+        "Comfortable clothing & footwear",
+        "Camera / binoculars",
+        "Sunscreen & sunglasses",
+        "Personal medicines if any",
+        "Carry cash – limited ATM access in Sundarbans"
+      ],
       "childPolicy": [],
-      "importantNotes": ["Hotel allocation (Larica Inn or Sonar Bangla) is subject to availability.", "Itinerary may change based on weather & tide conditions.", "This is an exclusive couple's package – pricing is per couple, not per person."],
+      "importantNotes": [
+        "Hotel allocation (Larica Inn or Sonar Bangla) is subject to availability.",
+        "Itinerary may change based on weather & tide conditions.",
+        "This is an exclusive couple's package – pricing is per couple, not per person."
+      ],
       "image": "/images/pkg-hilsa.png",
       "featured": true
+    },
+    {
+      "id": "pkg-hilsa",
+      "slug": "sundarban-hilsa-festival",
+      "title": "Sundarban Hilsa Festival 2026 | Ilish Utsav",
+      "duration": "2 Nights / 3 Days",
+      "price": 8999,
+      "priceLabel": "₹8,999 / person",
+      "groupSize": "Min 4 persons",
+      "featured": true,
+      "image": "/images/hero-1.png",
+      "description": "The Sundarban Hilsa Festival 2026 offers tourists and locals a wide range of activities and events. From cooking demonstrations and food stalls to cultural performances and fishing expeditions, experience the deep-rooted connection between local communities and the Hilsa fish.",
+      "highlights": [
+        "Hilsa Special Authentic Bengali Menu",
+        "Cultural Performances & Workshops",
+        "Sundarban Mangrove Safari",
+        "Birdwatching & Wildlife Tracking",
+        "Luxury Resort Stay"
+      ],
+      "itinerary": [
+        {
+          "time": "Day 1 - Morning",
+          "activity": "Pick up and arrival. Packed Breakfast with Mineral Water."
+        },
+        {
+          "time": "Day 1 - Lunch",
+          "activity": "Lunch at Resort: Basmati Rice, Green Salad, Dal, Seasonal Veg Curry, Ilish Paturi (2 Pcs), Chutney and Papad."
+        },
+        {
+          "time": "Day 1 - Evening",
+          "activity": "Snacks: Veg Pakora / Egg Devil with Tea/Coffee."
+        },
+        {
+          "time": "Day 1 - Dinner",
+          "activity": "Rice / Roti, Salad, Dal, Veg Curry, Chicken Curry, Sweets, and Hilsa Dishes."
+        },
+        {
+          "time": "Day 2 - Breakfast",
+          "activity": "Luchi, Dal/ Aloor Dam, Sandwich, Boiled Egg / Omelette, Fruits, Sweets, Tea/Coffee."
+        },
+        {
+          "time": "Day 2 - Lunch",
+          "activity": "Lunch (On Board): Steamed Basmati Rice, Green Salad, Mung Dal, Begun Bhaja, Ichor/Potol Chingri, Doi Ilish (2 Pcs), Chatni, Papad, and Mishti Doi."
+        },
+        {
+          "time": "Day 2 - Evening",
+          "activity": "Snacks: Chicken Pakora / Paneer Pakora, Tea/Coffee."
+        },
+        {
+          "time": "Day 2 - Dinner",
+          "activity": "Chapati/ Veg. Fried Rice, Green Salad, Veg Manchurian, Chilli Paneer/ Chilli Chicken (Pre-Plated), Sweets, Hilsa Fry."
+        },
+        {
+          "time": "Day 3 - Breakfast",
+          "activity": "Kachuri- Chana Masala, Bread Toast, Butter, Jam, Fruits, Sweets, Tea/Coffee."
+        },
+        {
+          "time": "Day 3 - Lunch",
+          "activity": "Farewell Lunch (On Board): Green Salad, Polao, Bhaja Ilish, Chicken Kasha, Chatni and Papad."
+        }
+      ],
+      "inclusions": [
+        "All meals mentioned in itinerary",
+        "Accommodation in Luxury Resort",
+        "Boat Safari and Forest Entry Fees",
+        "Cultural Program Access",
+        "Expert Guide"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Camera charges",
+        "Any items not mentioned"
+      ],
+      "thingsToCarry": [
+        "Comfortable clothing",
+        "Camera / Binoculars",
+        "Medicines and repellents",
+        "Original ID Proof"
+      ],
+      "importantNotes": [
+        "Wildlife sightings are subject to chance.",
+        "No plastics allowed in the reserve."
+      ]
     }
   ],
   "foods": [
@@ -392,19 +971,19 @@
       "icon": "Shield"
     },
     {
-      "title": "Expert Naturalist Guides",
-      "description": "Our guides are locals with decades of experience, ensuring the best wildlife sightings and authentic stories.",
+      "title": "Variety in Packages",
+      "description": "Choose a Sundarban tour package as per your budget and preferences.",
       "icon": "Compass"
     },
     {
-      "title": "All Permits Included",
-      "description": "We handle all jungle permits, forest entry fees, and boat licenses – so you focus only on the experience.",
+      "title": "Reasonable Rates",
+      "description": "Our rates assure an affordable and memorable journey without compromising on quality.",
       "icon": "FileCheck"
     },
     {
-      "title": "Eco-Friendly Tourism",
-      "description": "We are committed to sustainable tourism that protects the delicate mangrove ecosystem for future generations.",
-      "icon": "Leaf"
+      "title": "We Provide Insurance",
+      "description": "We ensure your trip is covered by providing necessary travel and safety insurance.",
+      "icon": "Shield"
     }
   ]
 }

@@ -15,9 +15,18 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const message = encodeURIComponent(`Hi, I have an inquiry via the Contact form:
+Name: ${form.name}
+Email: ${form.email}
+Phone: ${form.phone}
+Subject: ${form.subject}
+Message: ${form.message}`);
+    window.open(`https://wa.me/${content.companyInfo.whatsapp}?text=${message}`, "_blank");
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
-    setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+    setTimeout(() => {
+      setSubmitted(false);
+      setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+    }, 5000);
   };
 
   return (

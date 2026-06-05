@@ -18,6 +18,13 @@ const footerLinks = [
     { href: "/packages/2-nights-3-days-deluxe-sundarban-tour", label: "2N/3D Deluxe" },
     { href: "/packages/honeymoon-1-night-2-days", label: "Honeymoon 1N/2D" },
     { href: "/packages/honeymoon-2-nights-3-days", label: "Honeymoon 2N/3D" },
+    { href: "/packages/sundarban-hilsa-festival", label: "Hilsa Festival 2026" },
+  ]},
+  { heading: "Legal", links: [
+    { href: "/privacy-policy", label: "Privacy Policy" },
+    { href: "/terms-and-conditions", label: "Terms & Conditions" },
+    { href: "/cancellation-policy", label: "Cancellation Policy" },
+    { href: "/data-security", label: "Data Security" },
   ]},
 ];
 
@@ -27,9 +34,9 @@ export default function Footer() {
   return (
     <footer className="bg-mangrove-dark text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
           {/* Brand Column */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-4 xl:col-span-3">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                 <TreePine className="w-6 h-6 text-gold" />
@@ -58,7 +65,7 @@ export default function Footer() {
 
           {/* Link Columns */}
           {footerLinks.map((col) => (
-            <div key={col.heading}>
+            <div key={col.heading} className="lg:col-span-2">
               <h3 className="text-sm font-semibold uppercase tracking-wider text-gold mb-4">{col.heading}</h3>
               <ul className="space-y-2.5">
                 {col.links.map((link) => (
@@ -73,7 +80,7 @@ export default function Footer() {
           ))}
 
           {/* Contact Column */}
-          <div>
+          <div className="lg:col-span-4 xl:col-span-3">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Clock, Users, Check, X as XIcon, MapPin, ArrowLeft, Phone, MessageCircle, Backpack, Baby, AlertTriangle } from "lucide-react";
+import { Clock, Users, Check, X as XIcon, MapPin, ArrowLeft, Phone, MessageCircle, Backpack, Baby, AlertTriangle, Calendar } from "lucide-react";
 import BookingModal from "@/components/BookingModal";
 import WildlifeDivider from "@/components/WildlifeDivider";
 import content from "@/data/content.json";
@@ -45,7 +45,7 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30" />
-        <div className="max-w-5xl mx-auto px-4 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 relative z-10">
           <Link href="/packages" className="inline-flex items-center gap-2 text-white/70 text-sm hover:text-white mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" /> Back to Packages
           </Link>
@@ -78,7 +78,7 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
       </section>
 
       <section className="py-16 bg-mist">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <WildlifeDivider variant="paws" className="mb-10" />
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Main Content */}
@@ -99,21 +99,48 @@ export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
               {/* Itinerary */}
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-50">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6 font-[family-name:var(--font-display)]">Full Itinerary</h2>
-                <div className="relative space-y-0">
-                  {/* Timeline line */}
-                  <div className="absolute left-[18px] top-3 bottom-3 w-0.5 bg-mangrove/10" />
-                  {pkg.itinerary.map((item, i) => (
-                    <div key={i} className="relative flex gap-5 py-3">
-                      <div className="w-9 h-9 rounded-full bg-mangrove/10 flex items-center justify-center shrink-0 z-10 border-2 border-white">
-                        <div className="w-2.5 h-2.5 rounded-full bg-mangrove" />
+                <h2 className="text-2xl font-bold text-gray-900 mb-6 font-[family-name:var(--font-display)] uppercase tracking-wide">Detailed Daywise Itinerary</h2>
+                <div className="space-y-8">
+                  {Object.entries(
+                    pkg.itinerary.reduce((acc, curr) => {
+                      const match = curr.time.match(/^(Day \d+)(?:\s*[-–:]\s*(.*))?/i);
+                      const dayKey = match ? match[1] : "Day 1";
+                      const actualTime = match ? (match[2] || "") : curr.time;
+                      
+                      if (!acc[dayKey]) acc[dayKey] = { day: dayKey, items: [] };
+                      acc[dayKey].items.push({ time: actualTime, activity: curr.activity });
+                      return acc;
+                    }, {} as Record<string, { day: string, items: {time: string, activity: string}[] }>)
+                  ).map(([dayKey, group], dayIndex) => {
+                    const suffixes = ["st", "nd", "rd"];
+                    const suffix = dayIndex < 3 ? suffixes[dayIndex] : "th";
+                    const dayTitle = pkg.slug.includes("hilsa") 
+                      ? (dayIndex === 0 ? "Arrival & Hilsa Delicacies" : dayIndex === 1 ? "Jungle Safari & Festivities" : "Cultural Events & Departure")
+                      : `${dayIndex + 1}${suffix} Day Sundarban`;
+
+                    return (
+                      <div key={dayKey} className="space-y-5">
+                        {/* Theme Header */}
+                        <div className="bg-mangrove-dark text-white p-4 flex items-center gap-3 rounded-t-xl">
+                          <Calendar className="w-5 h-5 text-gold" />
+                          <h3 className="font-bold text-lg font-[family-name:var(--font-display)]">
+                            {dayKey} : {dayTitle}
+                          </h3>
+                        </div>
+                        
+                        <div className="space-y-5 px-1 pb-4">
+                          {group.items.map((item, i) => (
+                            <div key={i}>
+                              <p className="text-gray-800 text-[15px] leading-loose">
+                                {item.time && <span className="font-bold">{item.time} :- </span>}
+                                {item.activity}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                      <div>
-                        <span className="text-xs font-semibold text-mangrove uppercase tracking-wider">{item.time}</span>
-                        <p className="text-gray-700 text-sm mt-0.5">{item.activity}</p>
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </motion.div>
 

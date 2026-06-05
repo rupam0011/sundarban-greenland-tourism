@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import EnquiryBar from "@/components/EnquiryBar";
 import AboutSundarbanTour from "@/components/AboutSundarbanTour";
 import PackageCard from "@/components/PackageCard";
 import TestimonialSlider from "@/components/TestimonialSlider";
@@ -20,6 +21,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <EnquiryBar />
 
       {/* About Sundarban Tour - Spot Images */}
       <AboutSundarbanTour />
@@ -33,7 +35,7 @@ export default function HomePage() {
       <PickupDrop />
 
       {/* Tour Insurance */}
-      <TourInsurance />
+      {/* <TourInsurance /> */}
 
       <WildlifeDivider variant="tiger-stripe" className="bg-mist py-4" />
 

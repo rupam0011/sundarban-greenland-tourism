@@ -17,6 +17,13 @@ export default function EnquiryBar() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const message = encodeURIComponent(`Hi, I would like to enquire about a tour.
+Name: ${form.name}
+Mobile: ${form.mobile}
+Date: ${form.date}
+Package: ${form.package}
+Persons: ${form.persons}`);
+    window.open(`https://wa.me/${content.companyInfo.whatsapp}?text=${message}`, "_blank");
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
