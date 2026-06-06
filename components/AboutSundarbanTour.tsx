@@ -40,7 +40,7 @@ const spots = [
 export default function AboutSundarbanTour() {
   return (
     <section className="py-20 bg-mist">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ export default function AboutSundarbanTour() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-24 max-w-5xl mx-auto"
+          className="mt-24 max-w-7xl mx-auto"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Left Column */}

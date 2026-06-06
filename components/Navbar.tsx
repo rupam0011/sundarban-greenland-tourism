@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, TreePine, Phone } from "lucide-react";
 import { cn } from "@/lib/cn";
@@ -37,26 +38,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center group">
             <div className={cn(
-              "w-10 h-10 rounded-xl flex items-center justify-center transition-colors duration-300",
-              scrolled ? "bg-mangrove" : "bg-white/20 backdrop-blur-sm"
+              "transition-all duration-300 group-hover:scale-105 rounded-xl p-2 flex items-center justify-center",
+              !scrolled && "bg-white/95 backdrop-blur-sm shadow-lg shadow-black/5"
             )}>
-              <TreePine className="w-6 h-6 text-white" />
-            </div>
-            <div className="flex flex-col">
-              <span className={cn(
-                "text-lg font-bold leading-tight font-[family-name:var(--font-display)] transition-colors duration-300",
-                scrolled ? "text-mangrove" : "text-white"
-              )}>
-                Sundarban
-              </span>
-              <span className={cn(
-                "text-[10px] uppercase tracking-[0.2em] leading-tight transition-colors duration-300",
-                scrolled ? "text-earth" : "text-white/80"
-              )}>
-                Greenland Tourism
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt="Sundarban Greenland Tourism"
+                width={160}
+                height={60}
+                className="h-10 md:h-15 w-auto object-contain mix-blend-multiply"
+                priority
+              />
             </div>
           </Link>
 

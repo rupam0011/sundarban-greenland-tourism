@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { TreePine, Phone, Mail, MapPin, Globe, Camera, Video, ArrowUp } from "lucide-react";
 import content from "@/data/content.json";
 
@@ -37,13 +38,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-4 xl:col-span-3">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
-                <TreePine className="w-6 h-6 text-gold" />
-              </div>
-              <div>
-                <span className="text-lg font-bold font-[family-name:var(--font-display)]">Sundarban</span>
-                <span className="block text-[10px] uppercase tracking-[0.2em] text-gold-light">Greenland Tourism</span>
+            <Link href="/" className="inline-block mb-6 group">
+              <div className="transition-all duration-300 group-hover:scale-105 inline-flex bg-white/95 p-3 rounded-2xl shadow-lg shadow-black/10">
+                <Image 
+                  src="/images/logo.png"
+                  alt="Sundarban Greenland Tourism" 
+                  width={180}
+                  height={70}
+                  className="h-10 md:h-15 w-auto object-contain mix-blend-multiply"
+                />
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
