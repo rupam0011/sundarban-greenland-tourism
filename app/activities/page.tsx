@@ -97,27 +97,18 @@ export default function ActivitiesPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-mangrove-dark/80" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/90 text-sm font-medium mb-6">
               <Map className="w-4 h-4" /> Discover &amp; Experience
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-[family-name:var(--font-display)] mb-6 leading-tight">
               Our Activities
             </h1>
-            <p className="text-white/80 text-lg md:text-xl leading-relaxed max-w-2xl">
+            <p className="text-white/80 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
               From thrilling boat safaris through serpentine creeks to mesmerizing
               folk performances under the stars — the Sundarbans offers
               experiences that stay with you long after you leave.
             </p>
-
-            {/* Breadcrumb */}
-            <nav className="mt-8 flex items-center gap-2 text-white/60 text-sm">
-              <Link href="/" className="hover:text-white transition-colors">
-                Home
-              </Link>
-              <span>/</span>
-              <span className="text-white">Activities</span>
-            </nav>
           </div>
         </div>
 

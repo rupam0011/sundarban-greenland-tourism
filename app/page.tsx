@@ -16,7 +16,7 @@ import { ArrowRight } from "lucide-react";
 import content from "@/data/content.json";
 
 export default function HomePage() {
-  const featured = content.packages.filter((p) => p.featured);
+  const featured = content.packages.filter((p) => p.featured).slice(0, 6);
 
   return (
     <>

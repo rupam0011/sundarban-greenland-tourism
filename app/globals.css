@@ -108,3 +108,24 @@ body {
 .hero-overlay {
   background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 50%, rgba(30,51,23,0.8) 100%);
 }
+
+/* Form select & option theming — override browser blue */
+select option:checked,
+select option:hover {
+  background-color: #2d4a22;
+  color: #fff;
+}
+
+select:focus {
+  border-color: #2d4a22;
+}
+
+/* Accent color for form controls (checkbox, radio, range, progress) */
+input, select, textarea {
+  accent-color: #2d4a22;
+}
+
+/* Override browser default focus ring to green */
+input:focus, select:focus, textarea:focus {
+  outline-color: #2d4a22;
+}

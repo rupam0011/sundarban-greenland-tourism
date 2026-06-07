@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { User, Phone, Calendar, Package, Users, Send, Check } from "lucide-react";
+import { User, Phone, Calendar, Users, Send, Check } from "lucide-react";
+import CustomSelect from "@/components/CustomSelect";
 import content from "@/data/content.json";
 
 export default function EnquiryBar() {
@@ -99,20 +100,16 @@ Persons: ${form.persons}`);
 
               {/* Select Package */}
               <div className="relative flex-1">
-                <Package className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                <select
+                <CustomSelect
                   required
                   value={form.package}
-                  onChange={(e) => setForm({ ...form, package: e.target.value })}
-                  className="w-full pl-9 pr-3 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-mangrove focus:ring-2 focus:ring-mangrove/10 transition-all bg-white appearance-none cursor-pointer"
-                >
-                  <option value="">Select Package</option>
-                  {content.packages.map((pkg) => (
-                    <option key={pkg.id} value={pkg.title}>
-                      {pkg.title} – {pkg.duration}
-                    </option>
-                  ))}
-                </select>
+                  onChange={(val) => setForm({ ...form, package: val })}
+                  placeholder="Select Package"
+                  options={content.packages.map((pkg) => ({
+                    value: pkg.title,
+                    label: `${pkg.title} – ${pkg.duration}`,
+                  }))}
+                />
               </div>
 
               {/* No of Persons */}
