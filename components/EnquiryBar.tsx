@@ -32,13 +32,20 @@ Persons: ${form.persons}`);
   };
 
   return (
-    <section className="relative z-20 -mt-8">
+    <section className="py-16 bg-mist">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8">
+          <span className="text-mangrove text-sm font-semibold uppercase tracking-wider">Quick Booking</span>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-2 font-[family-name:var(--font-display)]">
+            Enquire About Your Tour
+          </h2>
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="bg-white/95 backdrop-blur-lg rounded-2xl shadow-xl border border-gray-100 p-4 sm:p-5"
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="bg-white rounded-2xl shadow-xl shadow-mangrove/5 border border-gray-100 p-5 sm:p-6"
         >
           {submitted ? (
             <div className="flex items-center justify-center gap-3 py-3">
