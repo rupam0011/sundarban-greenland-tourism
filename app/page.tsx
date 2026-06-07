@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import EnquiryBar from "@/components/EnquiryBar";
 import AboutSundarbanTour from "@/components/AboutSundarbanTour";
-import PackageCard from "@/components/PackageCard";
+import FeaturedPackages from "@/components/FeaturedPackages";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import FoodHighlightCard from "@/components/FoodHighlightCard";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -16,7 +16,6 @@ import { ArrowRight } from "lucide-react";
 import content from "@/data/content.json";
 
 export default function HomePage() {
-  const featured = content.packages.filter((p) => p.featured).slice(0, 6);
 
   return (
     <>
@@ -52,22 +51,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-            {featured.map((pkg, i) => (
-              <PackageCard
-                key={pkg.id}
-                slug={pkg.slug}
-                title={pkg.title}
-                duration={pkg.duration}
-                priceLabel={pkg.priceLabel}
-                groupSize={pkg.groupSize}
-                highlights={pkg.highlights}
-                description={pkg.description}
-                image={pkg.image}
-                index={i}
-              />
-            ))}
-          </div>
+          <FeaturedPackages />
 
           <div className="text-center">
             <Link href="/packages"

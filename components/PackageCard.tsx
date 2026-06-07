@@ -14,12 +14,14 @@ interface PackageCardProps {
   highlights: string[];
   description: string;
   image?: string;
+  imageUrl?: string;
   index?: number;
 }
 
 export default function PackageCard({
-  slug, title, duration, priceLabel, groupSize, highlights, description, image, index = 0,
+  slug, title, duration, priceLabel, groupSize, highlights, description, image, imageUrl, index = 0,
 }: PackageCardProps) {
+  const imgSrc = imageUrl || image;
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -31,9 +33,9 @@ export default function PackageCard({
         <div className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-mangrove/20 flex flex-col">
           {/* Image */}
           <div className="relative h-52 overflow-hidden">
-            {image ? (
+            {imgSrc ? (
               <Image
-                src={image}
+                src={imgSrc}
                 alt={title}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
