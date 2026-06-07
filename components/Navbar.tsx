@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/packages", label: "Packages" },
   { href: "/destinations", label: "Destinations" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/activities", label: "Activities" },
   { href: "/contact", label: "Contact" },
 ];
 
