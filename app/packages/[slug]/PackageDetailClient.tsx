@@ -32,7 +32,8 @@ interface PackageData {
 export default function PackageDetailClient({ pkg }: { pkg: PackageData }) {
   const [bookingOpen, setBookingOpen] = useState(false);
   const { companyInfo } = content;
-
+  console.log("pkg", pkg);
+  
   return (
     <article>
       {/* Hero with real image */}

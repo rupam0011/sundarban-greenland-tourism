@@ -66,6 +66,7 @@ export async function fetchPackages(category?: string): Promise<Package[]> {
   const params: Record<string, string> = {};
   if (category) params.category = category;
   const { data } = await api.get<PackagesResponse>("/packages", { params });
+  
   return data.data;
 }
 
@@ -74,6 +75,23 @@ export async function fetchFeaturedPackages(): Promise<Package[]> {
     params: { featured: true },
   });
   return data.data;
+}
+
+export interface PackageDetail extends Package {
+  itinerary: { time: string; activity: string }[];
+  isAllInclusive?: boolean;
+  metaTitle?: string;
+  metaDescription?: string;
+}
+
+export async function fetchPackage(slug: string): Promise<PackageDetail | null> {
+  try {
+    const { data } = await api.get<{ message: string; data: PackageDetail }>(`/packages/${slug}`);
+    return data.data;
+  } catch (error) {
+    console.error(`Failed to fetch package ${slug}:`, error);
+    return null;
+  }
 }
 
 export default api;

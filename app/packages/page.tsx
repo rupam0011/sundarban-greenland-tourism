@@ -24,6 +24,9 @@ export default function PackagesPage() {
     queryFn: () => fetchPackages(activeCategory === "all" ? undefined : activeCategory),
   });
 
+  console.log("all package", packages);
+  
+
   // Fetch all packages to derive category tabs
   const { data: allPackages = [] } = useQuery({
     queryKey: ["packages"],
